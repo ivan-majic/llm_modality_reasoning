@@ -1,0 +1,28 @@
+
+# Virtual environments
+venv/
+venv*/  # If multiple venvs with different names
+.venv/
+
+# Python files
+*.pyc
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE configurations
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and other local files
+*.log
+*.sqlite3
+
+# Ignore all files in the virtual environment 'venv_sigspatial'
+venv_sigspatial/
