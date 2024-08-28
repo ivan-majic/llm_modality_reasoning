@@ -1,1 +1,602 @@
-[{"brick_layout": ["J,E,F,N,V,S,H,I,M,R"], "brick_colors": ["blue,yellow,yellow,white,white,blue,yellow,yellow,blue,blue"], "image": "data/brick_1D_50/images/img_0_color.png", "target": "J", "data": "There is a set of bricks. The brick V is on top of the brick N . The brick S is on top of the brick V . The brick F is on top of the brick E . For the brick J, the color is blue. The brick H is on top of the brick S . The brick R is on top of the brick M . The brick M is on top of the brick I . The brick I is on top of the brick H . The brick N is on top of the brick F . The brick E is on top of the brick J . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick J?", "label": "RMIHSVNFEJ"}, {"brick_layout": ["O,A,W,P,B,J,U,E,G,K,M"], "brick_colors": ["white,blue,white,blue,yellow,white,yellow,white,blue,blue,yellow"], "image": "data/brick_1D_50/images/img_1_color.png", "target": "A", "data": "There is a set of bricks. The brick G is on top of the brick E . The brick A is on top of the brick O . The brick J is on top of the brick B . The brick E is on top of the brick U . For the brick O, the color is white. The brick B is on top of the brick P . The brick U is on top of the brick J . The brick M is on top of the brick K . The brick K is on top of the brick G . The brick W is on top of the brick A . The brick P is on top of the brick W . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick A?", "label": "MKGEUJBPWA"}, {"brick_layout": ["T,U,H,J,D,A,Z,K,Q"], "brick_colors": ["yellow,blue,yellow,yellow,white,blue,white,blue,white"], "image": "data/brick_1D_50/images/img_2_color.png", "target": "T", "data": "There is a set of bricks. The brick H is on top of the brick U . For the brick T, the color is yellow. The brick U is on top of the brick T . The brick J is on top of the brick H . The brick Z is on top of the brick A . The brick A is on top of the brick D . The brick Q is on top of the brick K . The brick D is on top of the brick J . The brick K is on top of the brick Z . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick T?", "label": "QKZADJHUT"}, {"brick_layout": ["V,W,G,S,O,Q,P,X"], "brick_colors": ["yellow,yellow,blue,yellow,blue,blue,blue,blue"], "image": "data/brick_1D_50/images/img_3_color.png", "target": "G", "data": "There is a set of bricks. The brick Q is on top of the brick O . The brick W is on top of the brick V . The brick S is on top of the brick G . For the brick V, the color is yellow. The brick X is on top of the brick P . The brick G is on top of the brick W . The brick P is on top of the brick Q . The brick O is on top of the brick S . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick G?", "label": "XPQOSG"}, {"brick_layout": ["A,Y,Q,C,R,Z,X,P,U,G"], "brick_colors": ["blue,white,white,white,white,blue,white,blue,yellow,white"], "image": "data/brick_1D_50/images/img_4_color.png", "target": "Q", "data": "There is a set of bricks. The brick Q is on top of the brick Y . For the brick A, the color is blue. The brick P is on top of the brick X . The brick R is on top of the brick C . The brick X is on top of the brick Z . The brick Z is on top of the brick R . The brick G is on top of the brick U . The brick C is on top of the brick Q . The brick Y is on top of the brick A . The brick U is on top of the brick P . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick Q?", "label": "GUPXZRCQ"}, {"brick_layout": ["H,K,L,Q,G,Y,N,F,J"], "brick_colors": ["white,yellow,white,white,yellow,blue,white,white,white"], "image": "data/brick_1D_50/images/img_5_color.png", "target": "H", "data": "There is a set of bricks. For the brick H, the color is white. The brick J is on top of the brick F . The brick Q is on top of the brick L . The brick Y is on top of the brick G . The brick G is on top of the brick Q . The brick L is on top of the brick K . The brick K is on top of the brick H . The brick N is on top of the brick Y . The brick F is on top of the brick N . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?", "label": "JFNYGQLKH"}, {"brick_layout": ["H,W,Q,P,M,V,X,I,B,T"], "brick_colors": ["blue,yellow,white,white,white,yellow,yellow,white,blue,blue"], "image": "data/brick_1D_50/images/img_6_color.png", "target": "H", "data": "There is a set of bricks. The brick V is on top of the brick M . The brick Q is on top of the brick W . For the brick H, the color is blue. The brick W is on top of the brick H . The brick P is on top of the brick Q . The brick B is on top of the brick I . The brick X is on top of the brick V . The brick M is on top of the brick P . The brick I is on top of the brick X . The brick T is on top of the brick B . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?", "label": "TBIXVMPQWH"}, {"brick_layout": ["S,E,F,G,U,J,I,B,P"], "brick_colors": ["yellow,blue,blue,yellow,yellow,white,yellow,blue,yellow"], "image": "data/brick_1D_50/images/img_7_color.png", "target": "F", "data": "There is a set of bricks. The brick E is on top of the brick S . The brick B is on top of the brick I . The brick J is on top of the brick U . The brick U is on top of the brick G . For the brick S, the color is yellow. The brick I is on top of the brick J . The brick F is on top of the brick E . The brick P is on top of the brick B . The brick G is on top of the brick F . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick F?", "label": "PBIJUGF"}, {"brick_layout": ["G,H,Q,R,Z,V,X,T"], "brick_colors": ["blue,white,blue,white,yellow,blue,yellow,yellow"], "image": "data/brick_1D_50/images/img_8_color.png", "target": "Q", "data": "There is a set of bricks. The brick Z is on top of the brick R . The brick T is on top of the brick X . The brick R is on top of the brick Q . The brick V is on top of the brick Z . The brick H is on top of the brick G . The brick Q is on top of the brick H . The brick X is on top of the brick V . For the brick G, the color is blue. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick Q?", "label": "TXVZRQ"}, {"brick_layout": ["V,F,G,M,T,Q,X,H,J"], "brick_colors": ["blue,white,white,blue,yellow,blue,yellow,yellow,white"], "image": "data/brick_1D_50/images/img_9_color.png", "target": "V", "data": "There is a set of bricks. The brick H is on top of the brick X . The brick M is on top of the brick G . The brick X is on top of the brick Q . The brick G is on top of the brick F . The brick J is on top of the brick H . For the brick V, the color is blue. The brick F is on top of the brick V . The brick T is on top of the brick M . The brick Q is on top of the brick T . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick V?", "label": "JHXQTMGFV"}, {"brick_layout": ["H,U,M,J,Y,K,A,N"], "brick_colors": ["white,white,blue,blue,blue,blue,yellow,yellow"], "image": "data/brick_1D_50/images/img_10_color.png", "target": "M", "data": "There is a set of bricks. The brick Y is on top of the brick J . The brick M is on top of the brick U . The brick K is on top of the brick Y . The brick A is on top of the brick K . The brick U is on top of the brick H . For the brick H, the color is white. The brick N is on top of the brick A . The brick J is on top of the brick M . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick M?", "label": "NAKYJM"}, {"brick_layout": ["J,B,Y,K,I,P,R"], "brick_colors": ["blue,blue,blue,yellow,blue,yellow,blue"], "image": "data/brick_1D_50/images/img_11_color.png", "target": "Y", "data": "There is a set of bricks. The brick I is on top of the brick K . For the brick J, the color is blue. The brick R is on top of the brick P . The brick B is on top of the brick J . The brick K is on top of the brick Y . The brick P is on top of the brick I . The brick Y is on top of the brick B . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick Y?", "label": "RPIKY"}, {"brick_layout": ["R,D,C,L,X,B,F,J,K"], "brick_colors": ["blue,blue,yellow,blue,yellow,blue,blue,blue,blue"], "image": "data/brick_1D_50/images/img_12_color.png", "target": "R", "data": "There is a set of bricks. The brick C is on top of the brick D . The brick B is on top of the brick X . The brick F is on top of the brick B . The brick J is on top of the brick F . For the brick R, the color is blue. The brick L is on top of the brick C . The brick X is on top of the brick L . The brick K is on top of the brick J . The brick D is on top of the brick R . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick R?", "label": "KJFBXLCDR"}, {"brick_layout": ["B,K,G,N,Z,X,Y,O,F,H,U"], "brick_colors": ["blue,white,blue,white,white,white,blue,white,white,white,white"], "image": "data/brick_1D_50/images/img_13_color.png", "target": "G", "data": "There is a set of bricks. The brick Z is on top of the brick N . The brick F is on top of the brick O . The brick X is on top of the brick Z . The brick U is on top of the brick H . The brick N is on top of the brick G . The brick G is on top of the brick K . The brick K is on top of the brick B . The brick H is on top of the brick F . The brick O is on top of the brick Y . For the brick B, the color is blue. The brick Y is on top of the brick X . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick G?", "label": "UHFOYXZNG"}, {"brick_layout": ["U,M,T,V,O,R,C,E"], "brick_colors": ["yellow,white,yellow,white,yellow,yellow,yellow,yellow"], "image": "data/brick_1D_50/images/img_14_color.png", "target": "U", "data": "There is a set of bricks. The brick T is on top of the brick M . The brick V is on top of the brick T . The brick M is on top of the brick U . The brick E is on top of the brick C . The brick C is on top of the brick R . For the brick U, the color is yellow. The brick R is on top of the brick O . The brick O is on top of the brick V . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick U?", "label": "ECROVTMU"}, {"brick_layout": ["Y,W,L,A,F"], "brick_colors": ["yellow,white,blue,white,yellow"], "image": "data/brick_1D_50/images/img_15_color.png", "target": "L", "data": "There is a set of bricks. The brick L is on top of the brick W . The brick W is on top of the brick Y . The brick A is on top of the brick L . For the brick Y, the color is yellow. The brick F is on top of the brick A . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick L?", "label": "FAL"}, {"brick_layout": ["K,V,L,I,R,P,G,Y,T"], "brick_colors": ["blue,blue,yellow,blue,yellow,yellow,white,blue,white"], "image": "data/brick_1D_50/images/img_16_color.png", "target": "L", "data": "There is a set of bricks. The brick T is on top of the brick Y . The brick L is on top of the brick V . The brick G is on top of the brick P . For the brick K, the color is blue. The brick P is on top of the brick R . The brick V is on top of the brick K . The brick Y is on top of the brick G . The brick I is on top of the brick L . The brick R is on top of the brick I . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick L?", "label": "TYGPRIL"}, {"brick_layout": ["V,K,J,M,A,S,I,X,O"], "brick_colors": ["blue,white,blue,white,white,white,blue,blue,blue"], "image": "data/brick_1D_50/images/img_17_color.png", "target": "V", "data": "There is a set of bricks. The brick X is on top of the brick I . For the brick V, the color is blue. The brick A is on top of the brick M . The brick M is on top of the brick J . The brick K is on top of the brick V . The brick J is on top of the brick K . The brick O is on top of the brick X . The brick S is on top of the brick A . The brick I is on top of the brick S . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick V?", "label": "OXISAMJKV"}, {"brick_layout": ["N,O,T,Q,S,X,G,F,C"], "brick_colors": ["yellow,blue,white,yellow,yellow,white,white,white,blue"], "image": "data/brick_1D_50/images/img_18_color.png", "target": "T", "data": "There is a set of bricks. The brick O is on top of the brick N . The brick T is on top of the brick O . The brick S is on top of the brick Q . For the brick N, the color is yellow. The brick F is on top of the brick G . The brick X is on top of the brick S . The brick Q is on top of the brick T . The brick C is on top of the brick F . The brick G is on top of the brick X . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick T?", "label": "CFGXSQT"}, {"brick_layout": ["E,H,L,F,A,X,I,G,Y,M"], "brick_colors": ["yellow,yellow,blue,blue,yellow,yellow,blue,blue,white,yellow"], "image": "data/brick_1D_50/images/img_19_color.png", "target": "H", "data": "There is a set of bricks. The brick L is on top of the brick H . The brick A is on top of the brick F . The brick Y is on top of the brick G . The brick I is on top of the brick X . The brick X is on top of the brick A . For the brick E, the color is yellow. The brick H is on top of the brick E . The brick F is on top of the brick L . The brick G is on top of the brick I . The brick M is on top of the brick Y . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?", "label": "MYGIXAFLH"}, {"brick_layout": ["S,A,J,G,X,Q,U,P,E"], "brick_colors": ["yellow,blue,yellow,white,white,blue,yellow,yellow,blue"], "image": "data/brick_1D_50/images/img_20_color.png", "target": "S", "data": "There is a set of bricks. The brick P is on top of the brick U . The brick J is on top of the brick A . The brick E is on top of the brick P . The brick U is on top of the brick Q . For the brick S, the color is yellow. The brick X is on top of the brick G . The brick A is on top of the brick S . The brick G is on top of the brick J . The brick Q is on top of the brick X . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick S?", "label": "EPUQXGJAS"}, {"brick_layout": ["N,M,B,T,V,R"], "brick_colors": ["yellow,blue,yellow,white,white,white"], "image": "data/brick_1D_50/images/img_21_color.png", "target": "N", "data": "There is a set of bricks. The brick R is on top of the brick V . The brick M is on top of the brick N . The brick B is on top of the brick M . The brick V is on top of the brick T . The brick T is on top of the brick B . For the brick N, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick N?", "label": "RVTBMN"}, {"brick_layout": ["N,O,D,M,I,Y,A"], "brick_colors": ["yellow,yellow,yellow,blue,white,yellow,yellow"], "image": "data/brick_1D_50/images/img_22_color.png", "target": "N", "data": "There is a set of bricks. The brick Y is on top of the brick I . The brick D is on top of the brick O . The brick A is on top of the brick Y . The brick M is on top of the brick D . For the brick N, the color is yellow. The brick I is on top of the brick M . The brick O is on top of the brick N . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick N?", "label": "AYIMDON"}, {"brick_layout": ["X,W,H,T,M,A,K,I"], "brick_colors": ["blue,blue,yellow,yellow,white,white,white,yellow"], "image": "data/brick_1D_50/images/img_23_color.png", "target": "H", "data": "There is a set of bricks. The brick T is on top of the brick H . The brick K is on top of the brick A . The brick W is on top of the brick X . The brick I is on top of the brick K . The brick A is on top of the brick M . The brick H is on top of the brick W . The brick M is on top of the brick T . For the brick X, the color is blue. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?", "label": "IKAMTH"}, {"brick_layout": ["J,A,M,E,S,Y,R"], "brick_colors": ["blue,blue,white,white,white,white,blue"], "image": "data/brick_1D_50/images/img_24_color.png", "target": "A", "data": "There is a set of bricks. The brick A is on top of the brick J . The brick S is on top of the brick E . The brick E is on top of the brick M . The brick R is on top of the brick Y . The brick M is on top of the brick A . For the brick J, the color is blue. The brick Y is on top of the brick S . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick A?", "label": "RYSEMA"}, {"brick_layout": ["D,Z,C,X,U,N,R,T,S,J"], "brick_colors": ["yellow,yellow,white,blue,white,blue,yellow,white,white,blue"], "image": "data/brick_1D_50/images/img_25_color.png", "target": "D", "data": "There is a set of bricks. The brick X is on top of the brick C . The brick R is on top of the brick N . The brick T is on top of the brick R . The brick N is on top of the brick U . The brick Z is on top of the brick D . The brick C is on top of the brick Z . The brick S is on top of the brick T . The brick J is on top of the brick S . The brick U is on top of the brick X . For the brick D, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick D?", "label": "JSTRNUXCZD"}, {"brick_layout": ["U,S,F,W,H,C,O,J,A,I"], "brick_colors": ["blue,yellow,blue,yellow,blue,white,blue,yellow,white,blue"], "image": "data/brick_1D_50/images/img_26_color.png", "target": "F", "data": "There is a set of bricks. The brick F is on top of the brick S . For the brick U, the color is blue. The brick W is on top of the brick F . The brick O is on top of the brick C . The brick I is on top of the brick A . The brick S is on top of the brick U . The brick A is on top of the brick J . The brick J is on top of the brick O . The brick C is on top of the brick H . The brick H is on top of the brick W . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick F?", "label": "IAJOCHWF"}, {"brick_layout": ["N,Q,S,F,R,P,U,C,H"], "brick_colors": ["blue,yellow,yellow,yellow,white,yellow,blue,white,white"], "image": "data/brick_1D_50/images/img_27_color.png", "target": "Q", "data": "There is a set of bricks. The brick S is on top of the brick Q . The brick F is on top of the brick S . The brick Q is on top of the brick N . The brick P is on top of the brick R . The brick U is on top of the brick P . The brick H is on top of the brick C . The brick R is on top of the brick F . The brick C is on top of the brick U . For the brick N, the color is blue. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick Q?", "label": "HCUPRFSQ"}, {"brick_layout": ["P,Z,H,W,L,V,N,G"], "brick_colors": ["white,white,yellow,white,blue,white,blue,blue"], "image": "data/brick_1D_50/images/img_28_color.png", "target": "H", "data": "There is a set of bricks. The brick G is on top of the brick N . The brick H is on top of the brick Z . The brick V is on top of the brick L . The brick Z is on top of the brick P . The brick L is on top of the brick W . The brick N is on top of the brick V . The brick W is on top of the brick H . For the brick P, the color is white. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?", "label": "GNVLWH"}, {"brick_layout": ["C,R,L,I,E,P,F"], "brick_colors": ["blue,yellow,yellow,white,yellow,white,yellow"], "image": "data/brick_1D_50/images/img_29_color.png", "target": "L", "data": "There is a set of bricks. The brick P is on top of the brick E . The brick I is on top of the brick L . The brick L is on top of the brick R . For the brick C, the color is blue. The brick R is on top of the brick C . The brick E is on top of the brick I . The brick F is on top of the brick P . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick L?", "label": "FPEIL"}, {"brick_layout": ["X,J,I,U,A,C,B,Y,K"], "brick_colors": ["yellow,yellow,yellow,white,blue,blue,white,yellow,yellow"], "image": "data/brick_1D_50/images/img_30_color.png", "target": "X", "data": "There is a set of bricks. The brick K is on top of the brick Y . The brick I is on top of the brick J . The brick A is on top of the brick U . The brick J is on top of the brick X . The brick B is on top of the brick C . The brick Y is on top of the brick B . For the brick X, the color is yellow. The brick C is on top of the brick A . The brick U is on top of the brick I . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick X?", "label": "KYBCAUIJX"}, {"brick_layout": ["D,A,J,R,Z,B,K,N,U,O"], "brick_colors": ["white,blue,blue,white,blue,yellow,blue,yellow,yellow,yellow"], "image": "data/brick_1D_50/images/img_31_color.png", "target": "A", "data": "There is a set of bricks. For the brick D, the color is white. The brick U is on top of the brick N . The brick A is on top of the brick D . The brick K is on top of the brick B . The brick R is on top of the brick J . The brick B is on top of the brick Z . The brick O is on top of the brick U . The brick J is on top of the brick A . The brick N is on top of the brick K . The brick Z is on top of the brick R . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick A?", "label": "OUNKBZRJA"}, {"brick_layout": ["L,S,B,J,A,H"], "brick_colors": ["yellow,white,yellow,blue,white,blue"], "image": "data/brick_1D_50/images/img_32_color.png", "target": "B", "data": "There is a set of bricks. The brick B is on top of the brick S . The brick S is on top of the brick L . The brick H is on top of the brick A . The brick J is on top of the brick B . The brick A is on top of the brick J . For the brick L, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick B?", "label": "HAJB"}, {"brick_layout": ["M,S,I,H,K,P,C,F"], "brick_colors": ["yellow,yellow,yellow,yellow,yellow,white,white,blue"], "image": "data/brick_1D_50/images/img_33_color.png", "target": "M", "data": "There is a set of bricks. For the brick M, the color is yellow. The brick P is on top of the brick K . The brick F is on top of the brick C . The brick I is on top of the brick S . The brick H is on top of the brick I . The brick C is on top of the brick P . The brick S is on top of the brick M . The brick K is on top of the brick H . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick M?", "label": "FCPKHISM"}, {"brick_layout": ["G,Y,H,N,X,V,P,M,D,A"], "brick_colors": ["white,white,yellow,blue,yellow,white,white,blue,blue,blue"], "image": "data/brick_1D_50/images/img_34_color.png", "target": "H", "data": "There is a set of bricks. The brick P is on top of the brick V . The brick M is on top of the brick P . The brick D is on top of the brick M . The brick X is on top of the brick N . The brick V is on top of the brick X . For the brick G, the color is white. The brick Y is on top of the brick G . The brick N is on top of the brick H . The brick H is on top of the brick Y . The brick A is on top of the brick D . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?", "label": "ADMPVXNH"}, {"brick_layout": ["K,M,A,E,H,Y,O,B"], "brick_colors": ["white,yellow,yellow,blue,blue,yellow,yellow,blue"], "image": "data/brick_1D_50/images/img_35_color.png", "target": "M", "data": "There is a set of bricks. The brick H is on top of the brick E . The brick Y is on top of the brick H . The brick B is on top of the brick O . The brick E is on top of the brick A . The brick M is on top of the brick K . For the brick K, the color is white. The brick A is on top of the brick M . The brick O is on top of the brick Y . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick M?", "label": "BOYHEAM"}, {"brick_layout": ["S,G,H,N,L,C,F,U,I,V"], "brick_colors": ["white,white,blue,blue,yellow,yellow,white,yellow,white,yellow"], "image": "data/brick_1D_50/images/img_36_color.png", "target": "H", "data": "There is a set of bricks. The brick G is on top of the brick S . The brick H is on top of the brick G . The brick C is on top of the brick L . The brick L is on top of the brick N . For the brick S, the color is white. The brick F is on top of the brick C . The brick V is on top of the brick I . The brick U is on top of the brick F . The brick I is on top of the brick U . The brick N is on top of the brick H . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?", "label": "VIUFCLNH"}, {"brick_layout": ["N,H,J,Y,F,B,U,V,W"], "brick_colors": ["yellow,blue,blue,white,yellow,blue,yellow,blue,blue"], "image": "data/brick_1D_50/images/img_37_color.png", "target": "N", "data": "There is a set of bricks. The brick U is on top of the brick B . The brick J is on top of the brick H . The brick Y is on top of the brick J . The brick W is on top of the brick V . The brick H is on top of the brick N . The brick V is on top of the brick U . The brick F is on top of the brick Y . The brick B is on top of the brick F . For the brick N, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick N?", "label": "WVUBFYJHN"}, {"brick_layout": ["D,V,N,C,H,W"], "brick_colors": ["yellow,blue,white,yellow,yellow,white"], "image": "data/brick_1D_50/images/img_38_color.png", "target": "D", "data": "There is a set of bricks. The brick V is on top of the brick D . The brick H is on top of the brick C . The brick W is on top of the brick H . The brick N is on top of the brick V . The brick C is on top of the brick N . For the brick D, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick D?", "label": "WHCNVD"}, {"brick_layout": ["E,U,T,B,O,F,M,Q,Y"], "brick_colors": ["blue,yellow,white,blue,blue,white,white,yellow,white"], "image": "data/brick_1D_50/images/img_39_color.png", "target": "U", "data": "There is a set of bricks. The brick F is on top of the brick O . The brick T is on top of the brick U . The brick O is on top of the brick B . The brick B is on top of the brick T . The brick U is on top of the brick E . The brick M is on top of the brick F . The brick Y is on top of the brick Q . For the brick E, the color is blue. The brick Q is on top of the brick M . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick U?", "label": "YQMFOBTU"}, {"brick_layout": ["V,B,H,G,I,Z"], "brick_colors": ["white,yellow,yellow,blue,white,blue"], "image": "data/brick_1D_50/images/img_40_color.png", "target": "H", "data": "There is a set of bricks. The brick G is on top of the brick H . For the brick V, the color is white. The brick I is on top of the brick G . The brick B is on top of the brick V . The brick H is on top of the brick B . The brick Z is on top of the brick I . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?", "label": "ZIGH"}, {"brick_layout": ["X,L,E,J,O,N,S,P"], "brick_colors": ["white,yellow,blue,yellow,yellow,white,white,yellow"], "image": "data/brick_1D_50/images/img_41_color.png", "target": "E", "data": "There is a set of bricks. The brick N is on top of the brick O . The brick O is on top of the brick J . The brick L is on top of the brick X . The brick P is on top of the brick S . For the brick X, the color is white. The brick J is on top of the brick E . The brick S is on top of the brick N . The brick E is on top of the brick L . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick E?", "label": "PSNOJE"}, {"brick_layout": ["S,D,W,B,P,H,I,V,O,T,R"], "brick_colors": ["white,blue,yellow,white,yellow,blue,white,white,yellow,yellow,yellow"], "image": "data/brick_1D_50/images/img_42_color.png", "target": "W", "data": "There is a set of bricks. The brick P is on top of the brick B . The brick T is on top of the brick O . The brick B is on top of the brick W . The brick H is on top of the brick P . The brick V is on top of the brick I . The brick I is on top of the brick H . The brick R is on top of the brick T . For the brick S, the color is white. The brick D is on top of the brick S . The brick O is on top of the brick V . The brick W is on top of the brick D . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick W?", "label": "RTOVIHPBW"}, {"brick_layout": ["Y,I,B,D,X,W,S,U,A,G,T"], "brick_colors": ["blue,yellow,blue,yellow,blue,blue,white,white,blue,yellow,blue"], "image": "data/brick_1D_50/images/img_43_color.png", "target": "B", "data": "There is a set of bricks. The brick B is on top of the brick I . The brick S is on top of the brick W . The brick A is on top of the brick U . The brick W is on top of the brick X . The brick D is on top of the brick B . For the brick Y, the color is blue. The brick I is on top of the brick Y . The brick T is on top of the brick G . The brick G is on top of the brick A . The brick U is on top of the brick S . The brick X is on top of the brick D . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick B?", "label": "TGAUSWXDB"}, {"brick_layout": ["B,O,H,F,D,T,R,Z,S,M,C"], "brick_colors": ["blue,blue,blue,yellow,white,blue,yellow,white,white,white,blue"], "image": "data/brick_1D_50/images/img_44_color.png", "target": "B", "data": "There is a set of bricks. The brick M is on top of the brick S . The brick Z is on top of the brick R . The brick O is on top of the brick B . The brick F is on top of the brick H . The brick D is on top of the brick F . The brick T is on top of the brick D . The brick S is on top of the brick Z . For the brick B, the color is blue. The brick H is on top of the brick O . The brick R is on top of the brick T . The brick C is on top of the brick M . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick B?", "label": "CMSZRTDFHOB"}, {"brick_layout": ["G,U,S,X,L,M,Q,O,P,C,J"], "brick_colors": ["yellow,blue,white,yellow,blue,white,blue,white,blue,blue,yellow"], "image": "data/brick_1D_50/images/img_45_color.png", "target": "S", "data": "There is a set of bricks. The brick M is on top of the brick L . The brick O is on top of the brick Q . The brick P is on top of the brick O . The brick S is on top of the brick U . The brick L is on top of the brick X . The brick X is on top of the brick S . For the brick G, the color is yellow. The brick Q is on top of the brick M . The brick C is on top of the brick P . The brick J is on top of the brick C . The brick U is on top of the brick G . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick S?", "label": "JCPOQMLXS"}, {"brick_layout": ["V,T,B,R,X,A,F,W,M,P"], "brick_colors": ["yellow,white,blue,blue,white,yellow,blue,white,yellow,yellow"], "image": "data/brick_1D_50/images/img_46_color.png", "target": "V", "data": "There is a set of bricks. The brick W is on top of the brick F . For the brick V, the color is yellow. The brick B is on top of the brick T . The brick R is on top of the brick B . The brick M is on top of the brick W . The brick F is on top of the brick A . The brick P is on top of the brick M . The brick T is on top of the brick V . The brick X is on top of the brick R . The brick A is on top of the brick X . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick V?", "label": "PMWFAXRBTV"}, {"brick_layout": ["W,I,S,T,H,Y,P,N,U,C"], "brick_colors": ["blue,white,yellow,white,yellow,white,yellow,white,yellow,blue"], "image": "data/brick_1D_50/images/img_47_color.png", "target": "I", "data": "There is a set of bricks. The brick S is on top of the brick I . The brick C is on top of the brick U . The brick T is on top of the brick S . The brick I is on top of the brick W . The brick H is on top of the brick T . The brick P is on top of the brick Y . For the brick W, the color is blue. The brick N is on top of the brick P . The brick U is on top of the brick N . The brick Y is on top of the brick H . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick I?", "label": "CUNPYHTSI"}, {"brick_layout": ["G,N,X,Y,Z,T,H,A"], "brick_colors": ["white,white,white,white,white,blue,blue,blue"], "image": "data/brick_1D_50/images/img_48_color.png", "target": "N", "data": "There is a set of bricks. For the brick G, the color is white. The brick H is on top of the brick T . The brick X is on top of the brick N . The brick T is on top of the brick Z . The brick Z is on top of the brick Y . The brick Y is on top of the brick X . The brick N is on top of the brick G . The brick A is on top of the brick H . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick N?", "label": "AHTZYXN"}, {"brick_layout": ["L,G,Q,H,B,J,E,N,C"], "brick_colors": ["yellow,white,blue,blue,yellow,white,blue,blue,yellow"], "image": "data/brick_1D_50/images/img_49_color.png", "target": "G", "data": "There is a set of bricks. The brick E is on top of the brick J . The brick B is on top of the brick H . The brick Q is on top of the brick G . The brick H is on top of the brick Q . The brick G is on top of the brick L . The brick N is on top of the brick E . For the brick L, the color is yellow. The brick C is on top of the brick N . The brick J is on top of the brick B . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick G?", "label": "CNEJBHQG"}]
+[
+    {
+        "brick_layout": [
+            "J,E,F,N,V,S,H,I,M,R"
+        ],
+        "brick_colors": [
+            "blue,yellow,yellow,white,white,blue,yellow,yellow,blue,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_0_color.png",
+        "target": "J",
+        "data": "There is a set of bricks. The brick V is on top of the brick N . The brick S is on top of the brick V . The brick F is on top of the brick E . For the brick J, the color is blue. The brick H is on top of the brick S . The brick R is on top of the brick M . The brick M is on top of the brick I . The brick I is on top of the brick H . The brick N is on top of the brick F . The brick E is on top of the brick J . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick J?",
+        "label": "RMIHSVNFEJ"
+    },
+    {
+        "brick_layout": [
+            "O,A,W,P,B,J,U,E,G,K,M"
+        ],
+        "brick_colors": [
+            "white,blue,white,blue,yellow,white,yellow,white,blue,blue,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_1_color.png",
+        "target": "A",
+        "data": "There is a set of bricks. The brick G is on top of the brick E . The brick A is on top of the brick O . The brick J is on top of the brick B . The brick E is on top of the brick U . For the brick O, the color is white. The brick B is on top of the brick P . The brick U is on top of the brick J . The brick M is on top of the brick K . The brick K is on top of the brick G . The brick W is on top of the brick A . The brick P is on top of the brick W . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick A?",
+        "label": "MKGEUJBPWA"
+    },
+    {
+        "brick_layout": [
+            "T,U,H,J,D,A,Z,K,Q"
+        ],
+        "brick_colors": [
+            "yellow,blue,yellow,yellow,white,blue,white,blue,white"
+        ],
+        "image": "data/brick_1D_50/images/img_2_color.png",
+        "target": "T",
+        "data": "There is a set of bricks. The brick H is on top of the brick U . For the brick T, the color is yellow. The brick U is on top of the brick T . The brick J is on top of the brick H . The brick Z is on top of the brick A . The brick A is on top of the brick D . The brick Q is on top of the brick K . The brick D is on top of the brick J . The brick K is on top of the brick Z . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick T?",
+        "label": "QKZADJHUT"
+    },
+    {
+        "brick_layout": [
+            "V,W,G,S,O,Q,P,X"
+        ],
+        "brick_colors": [
+            "yellow,yellow,blue,yellow,blue,blue,blue,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_3_color.png",
+        "target": "G",
+        "data": "There is a set of bricks. The brick Q is on top of the brick O . The brick W is on top of the brick V . The brick S is on top of the brick G . For the brick V, the color is yellow. The brick X is on top of the brick P . The brick G is on top of the brick W . The brick P is on top of the brick Q . The brick O is on top of the brick S . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick G?",
+        "label": "XPQOSG"
+    },
+    {
+        "brick_layout": [
+            "A,Y,Q,C,R,Z,X,P,U,G"
+        ],
+        "brick_colors": [
+            "blue,white,white,white,white,blue,white,blue,yellow,white"
+        ],
+        "image": "data/brick_1D_50/images/img_4_color.png",
+        "target": "Q",
+        "data": "There is a set of bricks. The brick Q is on top of the brick Y . For the brick A, the color is blue. The brick P is on top of the brick X . The brick R is on top of the brick C . The brick X is on top of the brick Z . The brick Z is on top of the brick R . The brick G is on top of the brick U . The brick C is on top of the brick Q . The brick Y is on top of the brick A . The brick U is on top of the brick P . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick Q?",
+        "label": "GUPXZRCQ"
+    },
+    {
+        "brick_layout": [
+            "H,K,L,Q,G,Y,N,F,J"
+        ],
+        "brick_colors": [
+            "white,yellow,white,white,yellow,blue,white,white,white"
+        ],
+        "image": "data/brick_1D_50/images/img_5_color.png",
+        "target": "H",
+        "data": "There is a set of bricks. For the brick H, the color is white. The brick J is on top of the brick F . The brick Q is on top of the brick L . The brick Y is on top of the brick G . The brick G is on top of the brick Q . The brick L is on top of the brick K . The brick K is on top of the brick H . The brick N is on top of the brick Y . The brick F is on top of the brick N . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?",
+        "label": "JFNYGQLKH"
+    },
+    {
+        "brick_layout": [
+            "H,W,Q,P,M,V,X,I,B,T"
+        ],
+        "brick_colors": [
+            "blue,yellow,white,white,white,yellow,yellow,white,blue,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_6_color.png",
+        "target": "H",
+        "data": "There is a set of bricks. The brick V is on top of the brick M . The brick Q is on top of the brick W . For the brick H, the color is blue. The brick W is on top of the brick H . The brick P is on top of the brick Q . The brick B is on top of the brick I . The brick X is on top of the brick V . The brick M is on top of the brick P . The brick I is on top of the brick X . The brick T is on top of the brick B . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?",
+        "label": "TBIXVMPQWH"
+    },
+    {
+        "brick_layout": [
+            "S,E,F,G,U,J,I,B,P"
+        ],
+        "brick_colors": [
+            "yellow,blue,blue,yellow,yellow,white,yellow,blue,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_7_color.png",
+        "target": "F",
+        "data": "There is a set of bricks. The brick E is on top of the brick S . The brick B is on top of the brick I . The brick J is on top of the brick U . The brick U is on top of the brick G . For the brick S, the color is yellow. The brick I is on top of the brick J . The brick F is on top of the brick E . The brick P is on top of the brick B . The brick G is on top of the brick F . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick F?",
+        "label": "PBIJUGF"
+    },
+    {
+        "brick_layout": [
+            "G,H,Q,R,Z,V,X,T"
+        ],
+        "brick_colors": [
+            "blue,white,blue,white,yellow,blue,yellow,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_8_color.png",
+        "target": "Q",
+        "data": "There is a set of bricks. The brick Z is on top of the brick R . The brick T is on top of the brick X . The brick R is on top of the brick Q . The brick V is on top of the brick Z . The brick H is on top of the brick G . The brick Q is on top of the brick H . The brick X is on top of the brick V . For the brick G, the color is blue. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick Q?",
+        "label": "TXVZRQ"
+    },
+    {
+        "brick_layout": [
+            "V,F,G,M,T,Q,X,H,J"
+        ],
+        "brick_colors": [
+            "blue,white,white,blue,yellow,blue,yellow,yellow,white"
+        ],
+        "image": "data/brick_1D_50/images/img_9_color.png",
+        "target": "V",
+        "data": "There is a set of bricks. The brick H is on top of the brick X . The brick M is on top of the brick G . The brick X is on top of the brick Q . The brick G is on top of the brick F . The brick J is on top of the brick H . For the brick V, the color is blue. The brick F is on top of the brick V . The brick T is on top of the brick M . The brick Q is on top of the brick T . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick V?",
+        "label": "JHXQTMGFV"
+    },
+    {
+        "brick_layout": [
+            "H,U,M,J,Y,K,A,N"
+        ],
+        "brick_colors": [
+            "white,white,blue,blue,blue,blue,yellow,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_10_color.png",
+        "target": "M",
+        "data": "There is a set of bricks. The brick Y is on top of the brick J . The brick M is on top of the brick U . The brick K is on top of the brick Y . The brick A is on top of the brick K . The brick U is on top of the brick H . For the brick H, the color is white. The brick N is on top of the brick A . The brick J is on top of the brick M . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick M?",
+        "label": "NAKYJM"
+    },
+    {
+        "brick_layout": [
+            "J,B,Y,K,I,P,R"
+        ],
+        "brick_colors": [
+            "blue,blue,blue,yellow,blue,yellow,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_11_color.png",
+        "target": "Y",
+        "data": "There is a set of bricks. The brick I is on top of the brick K . For the brick J, the color is blue. The brick R is on top of the brick P . The brick B is on top of the brick J . The brick K is on top of the brick Y . The brick P is on top of the brick I . The brick Y is on top of the brick B . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick Y?",
+        "label": "RPIKY"
+    },
+    {
+        "brick_layout": [
+            "R,D,C,L,X,B,F,J,K"
+        ],
+        "brick_colors": [
+            "blue,blue,yellow,blue,yellow,blue,blue,blue,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_12_color.png",
+        "target": "R",
+        "data": "There is a set of bricks. The brick C is on top of the brick D . The brick B is on top of the brick X . The brick F is on top of the brick B . The brick J is on top of the brick F . For the brick R, the color is blue. The brick L is on top of the brick C . The brick X is on top of the brick L . The brick K is on top of the brick J . The brick D is on top of the brick R . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick R?",
+        "label": "KJFBXLCDR"
+    },
+    {
+        "brick_layout": [
+            "B,K,G,N,Z,X,Y,O,F,H,U"
+        ],
+        "brick_colors": [
+            "blue,white,blue,white,white,white,blue,white,white,white,white"
+        ],
+        "image": "data/brick_1D_50/images/img_13_color.png",
+        "target": "G",
+        "data": "There is a set of bricks. The brick Z is on top of the brick N . The brick F is on top of the brick O . The brick X is on top of the brick Z . The brick U is on top of the brick H . The brick N is on top of the brick G . The brick G is on top of the brick K . The brick K is on top of the brick B . The brick H is on top of the brick F . The brick O is on top of the brick Y . For the brick B, the color is blue. The brick Y is on top of the brick X . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick G?",
+        "label": "UHFOYXZNG"
+    },
+    {
+        "brick_layout": [
+            "U,M,T,V,O,R,C,E"
+        ],
+        "brick_colors": [
+            "yellow,white,yellow,white,yellow,yellow,yellow,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_14_color.png",
+        "target": "U",
+        "data": "There is a set of bricks. The brick T is on top of the brick M . The brick V is on top of the brick T . The brick M is on top of the brick U . The brick E is on top of the brick C . The brick C is on top of the brick R . For the brick U, the color is yellow. The brick R is on top of the brick O . The brick O is on top of the brick V . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick U?",
+        "label": "ECROVTMU"
+    },
+    {
+        "brick_layout": [
+            "Y,W,L,A,F"
+        ],
+        "brick_colors": [
+            "yellow,white,blue,white,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_15_color.png",
+        "target": "L",
+        "data": "There is a set of bricks. The brick L is on top of the brick W . The brick W is on top of the brick Y . The brick A is on top of the brick L . For the brick Y, the color is yellow. The brick F is on top of the brick A . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick L?",
+        "label": "FAL"
+    },
+    {
+        "brick_layout": [
+            "K,V,L,I,R,P,G,Y,T"
+        ],
+        "brick_colors": [
+            "blue,blue,yellow,blue,yellow,yellow,white,blue,white"
+        ],
+        "image": "data/brick_1D_50/images/img_16_color.png",
+        "target": "L",
+        "data": "There is a set of bricks. The brick T is on top of the brick Y . The brick L is on top of the brick V . The brick G is on top of the brick P . For the brick K, the color is blue. The brick P is on top of the brick R . The brick V is on top of the brick K . The brick Y is on top of the brick G . The brick I is on top of the brick L . The brick R is on top of the brick I . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick L?",
+        "label": "TYGPRIL"
+    },
+    {
+        "brick_layout": [
+            "V,K,J,M,A,S,I,X,O"
+        ],
+        "brick_colors": [
+            "blue,white,blue,white,white,white,blue,blue,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_17_color.png",
+        "target": "V",
+        "data": "There is a set of bricks. The brick X is on top of the brick I . For the brick V, the color is blue. The brick A is on top of the brick M . The brick M is on top of the brick J . The brick K is on top of the brick V . The brick J is on top of the brick K . The brick O is on top of the brick X . The brick S is on top of the brick A . The brick I is on top of the brick S . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick V?",
+        "label": "OXISAMJKV"
+    },
+    {
+        "brick_layout": [
+            "N,O,T,Q,S,X,G,F,C"
+        ],
+        "brick_colors": [
+            "yellow,blue,white,yellow,yellow,white,white,white,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_18_color.png",
+        "target": "T",
+        "data": "There is a set of bricks. The brick O is on top of the brick N . The brick T is on top of the brick O . The brick S is on top of the brick Q . For the brick N, the color is yellow. The brick F is on top of the brick G . The brick X is on top of the brick S . The brick Q is on top of the brick T . The brick C is on top of the brick F . The brick G is on top of the brick X . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick T?",
+        "label": "CFGXSQT"
+    },
+    {
+        "brick_layout": [
+            "E,H,L,F,A,X,I,G,Y,M"
+        ],
+        "brick_colors": [
+            "yellow,yellow,blue,blue,yellow,yellow,blue,blue,white,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_19_color.png",
+        "target": "H",
+        "data": "There is a set of bricks. The brick L is on top of the brick H . The brick A is on top of the brick F . The brick Y is on top of the brick G . The brick I is on top of the brick X . The brick X is on top of the brick A . For the brick E, the color is yellow. The brick H is on top of the brick E . The brick F is on top of the brick L . The brick G is on top of the brick I . The brick M is on top of the brick Y . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?",
+        "label": "MYGIXAFLH"
+    },
+    {
+        "brick_layout": [
+            "S,A,J,G,X,Q,U,P,E"
+        ],
+        "brick_colors": [
+            "yellow,blue,yellow,white,white,blue,yellow,yellow,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_20_color.png",
+        "target": "S",
+        "data": "There is a set of bricks. The brick P is on top of the brick U . The brick J is on top of the brick A . The brick E is on top of the brick P . The brick U is on top of the brick Q . For the brick S, the color is yellow. The brick X is on top of the brick G . The brick A is on top of the brick S . The brick G is on top of the brick J . The brick Q is on top of the brick X . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick S?",
+        "label": "EPUQXGJAS"
+    },
+    {
+        "brick_layout": [
+            "N,M,B,T,V,R"
+        ],
+        "brick_colors": [
+            "yellow,blue,yellow,white,white,white"
+        ],
+        "image": "data/brick_1D_50/images/img_21_color.png",
+        "target": "N",
+        "data": "There is a set of bricks. The brick R is on top of the brick V . The brick M is on top of the brick N . The brick B is on top of the brick M . The brick V is on top of the brick T . The brick T is on top of the brick B . For the brick N, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick N?",
+        "label": "RVTBMN"
+    },
+    {
+        "brick_layout": [
+            "N,O,D,M,I,Y,A"
+        ],
+        "brick_colors": [
+            "yellow,yellow,yellow,blue,white,yellow,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_22_color.png",
+        "target": "N",
+        "data": "There is a set of bricks. The brick Y is on top of the brick I . The brick D is on top of the brick O . The brick A is on top of the brick Y . The brick M is on top of the brick D . For the brick N, the color is yellow. The brick I is on top of the brick M . The brick O is on top of the brick N . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick N?",
+        "label": "AYIMDON"
+    },
+    {
+        "brick_layout": [
+            "X,W,H,T,M,A,K,I"
+        ],
+        "brick_colors": [
+            "blue,blue,yellow,yellow,white,white,white,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_23_color.png",
+        "target": "H",
+        "data": "There is a set of bricks. The brick T is on top of the brick H . The brick K is on top of the brick A . The brick W is on top of the brick X . The brick I is on top of the brick K . The brick A is on top of the brick M . The brick H is on top of the brick W . The brick M is on top of the brick T . For the brick X, the color is blue. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?",
+        "label": "IKAMTH"
+    },
+    {
+        "brick_layout": [
+            "J,A,M,E,S,Y,R"
+        ],
+        "brick_colors": [
+            "blue,blue,white,white,white,white,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_24_color.png",
+        "target": "A",
+        "data": "There is a set of bricks. The brick A is on top of the brick J . The brick S is on top of the brick E . The brick E is on top of the brick M . The brick R is on top of the brick Y . The brick M is on top of the brick A . For the brick J, the color is blue. The brick Y is on top of the brick S . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick A?",
+        "label": "RYSEMA"
+    },
+    {
+        "brick_layout": [
+            "D,Z,C,X,U,N,R,T,S,J"
+        ],
+        "brick_colors": [
+            "yellow,yellow,white,blue,white,blue,yellow,white,white,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_25_color.png",
+        "target": "D",
+        "data": "There is a set of bricks. The brick X is on top of the brick C . The brick R is on top of the brick N . The brick T is on top of the brick R . The brick N is on top of the brick U . The brick Z is on top of the brick D . The brick C is on top of the brick Z . The brick S is on top of the brick T . The brick J is on top of the brick S . The brick U is on top of the brick X . For the brick D, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick D?",
+        "label": "JSTRNUXCZD"
+    },
+    {
+        "brick_layout": [
+            "U,S,F,W,H,C,O,J,A,I"
+        ],
+        "brick_colors": [
+            "blue,yellow,blue,yellow,blue,white,blue,yellow,white,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_26_color.png",
+        "target": "F",
+        "data": "There is a set of bricks. The brick F is on top of the brick S . For the brick U, the color is blue. The brick W is on top of the brick F . The brick O is on top of the brick C . The brick I is on top of the brick A . The brick S is on top of the brick U . The brick A is on top of the brick J . The brick J is on top of the brick O . The brick C is on top of the brick H . The brick H is on top of the brick W . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick F?",
+        "label": "IAJOCHWF"
+    },
+    {
+        "brick_layout": [
+            "N,Q,S,F,R,P,U,C,H"
+        ],
+        "brick_colors": [
+            "blue,yellow,yellow,yellow,white,yellow,blue,white,white"
+        ],
+        "image": "data/brick_1D_50/images/img_27_color.png",
+        "target": "Q",
+        "data": "There is a set of bricks. The brick S is on top of the brick Q . The brick F is on top of the brick S . The brick Q is on top of the brick N . The brick P is on top of the brick R . The brick U is on top of the brick P . The brick H is on top of the brick C . The brick R is on top of the brick F . The brick C is on top of the brick U . For the brick N, the color is blue. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick Q?",
+        "label": "HCUPRFSQ"
+    },
+    {
+        "brick_layout": [
+            "P,Z,H,W,L,V,N,G"
+        ],
+        "brick_colors": [
+            "white,white,yellow,white,blue,white,blue,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_28_color.png",
+        "target": "H",
+        "data": "There is a set of bricks. The brick G is on top of the brick N . The brick H is on top of the brick Z . The brick V is on top of the brick L . The brick Z is on top of the brick P . The brick L is on top of the brick W . The brick N is on top of the brick V . The brick W is on top of the brick H . For the brick P, the color is white. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?",
+        "label": "GNVLWH"
+    },
+    {
+        "brick_layout": [
+            "C,R,L,I,E,P,F"
+        ],
+        "brick_colors": [
+            "blue,yellow,yellow,white,yellow,white,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_29_color.png",
+        "target": "L",
+        "data": "There is a set of bricks. The brick P is on top of the brick E . The brick I is on top of the brick L . The brick L is on top of the brick R . For the brick C, the color is blue. The brick R is on top of the brick C . The brick E is on top of the brick I . The brick F is on top of the brick P . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick L?",
+        "label": "FPEIL"
+    },
+    {
+        "brick_layout": [
+            "X,J,I,U,A,C,B,Y,K"
+        ],
+        "brick_colors": [
+            "yellow,yellow,yellow,white,blue,blue,white,yellow,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_30_color.png",
+        "target": "X",
+        "data": "There is a set of bricks. The brick K is on top of the brick Y . The brick I is on top of the brick J . The brick A is on top of the brick U . The brick J is on top of the brick X . The brick B is on top of the brick C . The brick Y is on top of the brick B . For the brick X, the color is yellow. The brick C is on top of the brick A . The brick U is on top of the brick I . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick X?",
+        "label": "KYBCAUIJX"
+    },
+    {
+        "brick_layout": [
+            "D,A,J,R,Z,B,K,N,U,O"
+        ],
+        "brick_colors": [
+            "white,blue,blue,white,blue,yellow,blue,yellow,yellow,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_31_color.png",
+        "target": "A",
+        "data": "There is a set of bricks. For the brick D, the color is white. The brick U is on top of the brick N . The brick A is on top of the brick D . The brick K is on top of the brick B . The brick R is on top of the brick J . The brick B is on top of the brick Z . The brick O is on top of the brick U . The brick J is on top of the brick A . The brick N is on top of the brick K . The brick Z is on top of the brick R . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick A?",
+        "label": "OUNKBZRJA"
+    },
+    {
+        "brick_layout": [
+            "L,S,B,J,A,H"
+        ],
+        "brick_colors": [
+            "yellow,white,yellow,blue,white,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_32_color.png",
+        "target": "B",
+        "data": "There is a set of bricks. The brick B is on top of the brick S . The brick S is on top of the brick L . The brick H is on top of the brick A . The brick J is on top of the brick B . The brick A is on top of the brick J . For the brick L, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick B?",
+        "label": "HAJB"
+    },
+    {
+        "brick_layout": [
+            "M,S,I,H,K,P,C,F"
+        ],
+        "brick_colors": [
+            "yellow,yellow,yellow,yellow,yellow,white,white,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_33_color.png",
+        "target": "M",
+        "data": "There is a set of bricks. For the brick M, the color is yellow. The brick P is on top of the brick K . The brick F is on top of the brick C . The brick I is on top of the brick S . The brick H is on top of the brick I . The brick C is on top of the brick P . The brick S is on top of the brick M . The brick K is on top of the brick H . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick M?",
+        "label": "FCPKHISM"
+    },
+    {
+        "brick_layout": [
+            "G,Y,H,N,X,V,P,M,D,A"
+        ],
+        "brick_colors": [
+            "white,white,yellow,blue,yellow,white,white,blue,blue,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_34_color.png",
+        "target": "H",
+        "data": "There is a set of bricks. The brick P is on top of the brick V . The brick M is on top of the brick P . The brick D is on top of the brick M . The brick X is on top of the brick N . The brick V is on top of the brick X . For the brick G, the color is white. The brick Y is on top of the brick G . The brick N is on top of the brick H . The brick H is on top of the brick Y . The brick A is on top of the brick D . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?",
+        "label": "ADMPVXNH"
+    },
+    {
+        "brick_layout": [
+            "K,M,A,E,H,Y,O,B"
+        ],
+        "brick_colors": [
+            "white,yellow,yellow,blue,blue,yellow,yellow,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_35_color.png",
+        "target": "M",
+        "data": "There is a set of bricks. The brick H is on top of the brick E . The brick Y is on top of the brick H . The brick B is on top of the brick O . The brick E is on top of the brick A . The brick M is on top of the brick K . For the brick K, the color is white. The brick A is on top of the brick M . The brick O is on top of the brick Y . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick M?",
+        "label": "BOYHEAM"
+    },
+    {
+        "brick_layout": [
+            "S,G,H,N,L,C,F,U,I,V"
+        ],
+        "brick_colors": [
+            "white,white,blue,blue,yellow,yellow,white,yellow,white,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_36_color.png",
+        "target": "H",
+        "data": "There is a set of bricks. The brick G is on top of the brick S . The brick H is on top of the brick G . The brick C is on top of the brick L . The brick L is on top of the brick N . For the brick S, the color is white. The brick F is on top of the brick C . The brick V is on top of the brick I . The brick U is on top of the brick F . The brick I is on top of the brick U . The brick N is on top of the brick H . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?",
+        "label": "VIUFCLNH"
+    },
+    {
+        "brick_layout": [
+            "N,H,J,Y,F,B,U,V,W"
+        ],
+        "brick_colors": [
+            "yellow,blue,blue,white,yellow,blue,yellow,blue,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_37_color.png",
+        "target": "N",
+        "data": "There is a set of bricks. The brick U is on top of the brick B . The brick J is on top of the brick H . The brick Y is on top of the brick J . The brick W is on top of the brick V . The brick H is on top of the brick N . The brick V is on top of the brick U . The brick F is on top of the brick Y . The brick B is on top of the brick F . For the brick N, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick N?",
+        "label": "WVUBFYJHN"
+    },
+    {
+        "brick_layout": [
+            "D,V,N,C,H,W"
+        ],
+        "brick_colors": [
+            "yellow,blue,white,yellow,yellow,white"
+        ],
+        "image": "data/brick_1D_50/images/img_38_color.png",
+        "target": "D",
+        "data": "There is a set of bricks. The brick V is on top of the brick D . The brick H is on top of the brick C . The brick W is on top of the brick H . The brick N is on top of the brick V . The brick C is on top of the brick N . For the brick D, the color is yellow. Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick D?",
+        "label": "WHCNVD"
+    },
+    {
+        "brick_layout": [
+            "E,U,T,B,O,F,M,Q,Y"
+        ],
+        "brick_colors": [
+            "blue,yellow,white,blue,blue,white,white,yellow,white"
+        ],
+        "image": "data/brick_1D_50/images/img_39_color.png",
+        "target": "U",
+        "data": "There is a set of bricks. The brick F is on top of the brick O . The brick T is on top of the brick U . The brick O is on top of the brick B . The brick B is on top of the brick T . The brick U is on top of the brick E . The brick M is on top of the brick F . The brick Y is on top of the brick Q . For the brick E, the color is blue. The brick Q is on top of the brick M . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick U?",
+        "label": "YQMFOBTU"
+    },
+    {
+        "brick_layout": [
+            "V,B,H,G,I,Z"
+        ],
+        "brick_colors": [
+            "white,yellow,yellow,blue,white,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_40_color.png",
+        "target": "H",
+        "data": "There is a set of bricks. The brick G is on top of the brick H . For the brick V, the color is white. The brick I is on top of the brick G . The brick B is on top of the brick V . The brick H is on top of the brick B . The brick Z is on top of the brick I . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick H?",
+        "label": "ZIGH"
+    },
+    {
+        "brick_layout": [
+            "X,L,E,J,O,N,S,P"
+        ],
+        "brick_colors": [
+            "white,yellow,blue,yellow,yellow,white,white,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_41_color.png",
+        "target": "E",
+        "data": "There is a set of bricks. The brick N is on top of the brick O . The brick O is on top of the brick J . The brick L is on top of the brick X . The brick P is on top of the brick S . For the brick X, the color is white. The brick J is on top of the brick E . The brick S is on top of the brick N . The brick E is on top of the brick L . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick E?",
+        "label": "PSNOJE"
+    },
+    {
+        "brick_layout": [
+            "S,D,W,B,P,H,I,V,O,T,R"
+        ],
+        "brick_colors": [
+            "white,blue,yellow,white,yellow,blue,white,white,yellow,yellow,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_42_color.png",
+        "target": "W",
+        "data": "There is a set of bricks. The brick P is on top of the brick B . The brick T is on top of the brick O . The brick B is on top of the brick W . The brick H is on top of the brick P . The brick V is on top of the brick I . The brick I is on top of the brick H . The brick R is on top of the brick T . For the brick S, the color is white. The brick D is on top of the brick S . The brick O is on top of the brick V . The brick W is on top of the brick D . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick W?",
+        "label": "RTOVIHPBW"
+    },
+    {
+        "brick_layout": [
+            "Y,I,B,D,X,W,S,U,A,G,T"
+        ],
+        "brick_colors": [
+            "blue,yellow,blue,yellow,blue,blue,white,white,blue,yellow,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_43_color.png",
+        "target": "B",
+        "data": "There is a set of bricks. The brick B is on top of the brick I . The brick S is on top of the brick W . The brick A is on top of the brick U . The brick W is on top of the brick X . The brick D is on top of the brick B . For the brick Y, the color is blue. The brick I is on top of the brick Y . The brick T is on top of the brick G . The brick G is on top of the brick A . The brick U is on top of the brick S . The brick X is on top of the brick D . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick B?",
+        "label": "TGAUSWXDB"
+    },
+    {
+        "brick_layout": [
+            "B,O,H,F,D,T,R,Z,S,M,C"
+        ],
+        "brick_colors": [
+            "blue,blue,blue,yellow,white,blue,yellow,white,white,white,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_44_color.png",
+        "target": "B",
+        "data": "There is a set of bricks. The brick M is on top of the brick S . The brick Z is on top of the brick R . The brick O is on top of the brick B . The brick F is on top of the brick H . The brick D is on top of the brick F . The brick T is on top of the brick D . The brick S is on top of the brick Z . For the brick B, the color is blue. The brick H is on top of the brick O . The brick R is on top of the brick T . The brick C is on top of the brick M . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick B?",
+        "label": "CMSZRTDFHOB"
+    },
+    {
+        "brick_layout": [
+            "G,U,S,X,L,M,Q,O,P,C,J"
+        ],
+        "brick_colors": [
+            "yellow,blue,white,yellow,blue,white,blue,white,blue,blue,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_45_color.png",
+        "target": "S",
+        "data": "There is a set of bricks. The brick M is on top of the brick L . The brick O is on top of the brick Q . The brick P is on top of the brick O . The brick S is on top of the brick U . The brick L is on top of the brick X . The brick X is on top of the brick S . For the brick G, the color is yellow. The brick Q is on top of the brick M . The brick C is on top of the brick P . The brick J is on top of the brick C . The brick U is on top of the brick G . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick S?",
+        "label": "JCPOQMLXS"
+    },
+    {
+        "brick_layout": [
+            "V,T,B,R,X,A,F,W,M,P"
+        ],
+        "brick_colors": [
+            "yellow,white,blue,blue,white,yellow,blue,white,yellow,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_46_color.png",
+        "target": "V",
+        "data": "There is a set of bricks. The brick W is on top of the brick F . For the brick V, the color is yellow. The brick B is on top of the brick T . The brick R is on top of the brick B . The brick M is on top of the brick W . The brick F is on top of the brick A . The brick P is on top of the brick M . The brick T is on top of the brick V . The brick X is on top of the brick R . The brick A is on top of the brick X . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick V?",
+        "label": "PMWFAXRBTV"
+    },
+    {
+        "brick_layout": [
+            "W,I,S,T,H,Y,P,N,U,C"
+        ],
+        "brick_colors": [
+            "blue,white,yellow,white,yellow,white,yellow,white,yellow,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_47_color.png",
+        "target": "I",
+        "data": "There is a set of bricks. The brick S is on top of the brick I . The brick C is on top of the brick U . The brick T is on top of the brick S . The brick I is on top of the brick W . The brick H is on top of the brick T . The brick P is on top of the brick Y . For the brick W, the color is blue. The brick N is on top of the brick P . The brick U is on top of the brick N . The brick Y is on top of the brick H . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick I?",
+        "label": "CUNPYHTSI"
+    },
+    {
+        "brick_layout": [
+            "G,N,X,Y,Z,T,H,A"
+        ],
+        "brick_colors": [
+            "white,white,white,white,white,blue,blue,blue"
+        ],
+        "image": "data/brick_1D_50/images/img_48_color.png",
+        "target": "N",
+        "data": "There is a set of bricks. For the brick G, the color is white. The brick H is on top of the brick T . The brick X is on top of the brick N . The brick T is on top of the brick Z . The brick Z is on top of the brick Y . The brick Y is on top of the brick X . The brick N is on top of the brick G . The brick A is on top of the brick H . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick N?",
+        "label": "AHTZYXN"
+    },
+    {
+        "brick_layout": [
+            "L,G,Q,H,B,J,E,N,C"
+        ],
+        "brick_colors": [
+            "yellow,white,blue,blue,yellow,white,blue,blue,yellow"
+        ],
+        "image": "data/brick_1D_50/images/img_49_color.png",
+        "target": "G",
+        "data": "There is a set of bricks. The brick E is on top of the brick J . The brick B is on top of the brick H . The brick Q is on top of the brick G . The brick H is on top of the brick Q . The brick G is on top of the brick L . The brick N is on top of the brick E . For the brick L, the color is yellow. The brick C is on top of the brick N . The brick J is on top of the brick B . Now we have to get a specific brick. The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. How to get brick G?",
+        "label": "CNEJBHQG"
+    }
+]

@@ -26,3 +26,5 @@ Thumbs.db
 
 # Ignore all files in the virtual environment 'venv_sigspatial'
 venv_sigspatial/
+
+.openai_key.txt
