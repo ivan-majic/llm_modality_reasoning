@@ -339,8 +339,8 @@ if __name__ == "__main__":
            make_dict(dict_above, item, bricks)
         label = ''
         label = remove_bricks(brick_target.label, dict_above, label)
-        if label==brick_target.label:
-            label = 'we dont need to remove'
+        # if label==brick_target.label:
+        #     label = brick_target.label
         data = {
             "brick_layout":brick_labels,
             "brick_colors":brick_colors,

@@ -1,1 +1,202 @@
-[{"pred": "To get brick R, first grab brick J, then grab brick R. J, R", "label": "JR"}, {"pred": "To get brick C, we need to follow these steps: \n1. Remove brick R\n2. Remove brick N\n3. Remove brick K\n4. Remove brick E\n5. Remove brick U\n6. Remove brick I\n7. Remove brick C\n\nSo, the sequence of bricks to be grabbed is: R, N, K, E, U, I, C", "label": "FWRC"}, {"pred": "To get brick Z, we need to grab the bricks in the following sequence: R, F, J, C, Z.", "label": "RFJCZ"}, {"pred": "To get brick F, we need to follow this sequence: H, X, D, R, F.", "label": "IGF"}, {"pred": "To get brick L, we need to follow these steps: \n1. Remove brick Q\n2. Remove brick C\n3. Remove brick Z\n4. Remove brick X\n5. Remove brick V\n6. Remove brick S\n7. Remove brick Y\n8. Remove brick U\n9. Remove brick A\n10. Remove brick T\n11. Remove brick F\n12. Remove brick W\n13. Remove brick G\n14. Remove brick N\n15. Remove brick E\n16. Remove brick M\n17. Grab brick L\n\nSequence: Q, C, Z, X, V, S, Y, U, A, T, F, W, G, N, E, M, L", "label": "SUZCQL"}, {"pred": "To get brick Z, we need to grab the bricks in the following sequence: Y, V, T, B, C, R, M, S, O, W, J, Z.", "label": "SMRHNQZ"}, {"pred": "To get brick T, we need to follow this sequence: N (blue), D, K, F, I, M, Q, O, C, T.", "label": "LWGT"}, {"pred": "To get brick F, we need to follow this sequence: I, O, D, K, F.", "label": "we dont need to remove"}, {"pred": "To get brick S, we need to grab the bricks in the following sequence: Q, E, H, F, P, V, S.", "label": "QEHFPVS"}, {"pred": "To get brick I, we need to grab the bricks in the following sequence: W, A, G, K, I.", "label": "FSI"}, {"pred": "To get brick B, we need to follow this sequence: R, V, Z, E, M, I, U, B.", "label": "UIMB"}, {"pred": "To get brick H, we need to follow this sequence: Z, P, N, M, L, R, H.", "label": "DIBXCH"}, {"pred": "To get brick R, we need to follow this sequence: A, F, R.", "label": "XAFR"}, {"pred": "To get brick Q, we need to follow this sequence: N, M, W, H, B, Q", "label": "XDTSUQ"}, {"pred": "To get brick N, we need to follow this sequence: B, V, N.", "label": "FTHIN"}, {"pred": "To get brick K, first remove brick A, then remove brick S, then remove brick X, and finally, grab brick K.", "label": "we dont need to remove"}, {"pred": "To get brick Q, we need to follow the sequence of bricks from top to bottom: Y, T, Q.", "label": "YTQ"}, {"pred": "To get brick F, we need to follow this sequence: Y, S, J, L, E, J, Q, M, O, M, F.", "label": "NDBLGF"}, {"pred": "To get brick C, we need to follow these steps: \n1. Remove brick L\n2. Remove brick V\n3. Remove brick P\n4. Remove brick E\n5. Remove brick G\n6. Remove brick U\n7. Remove brick J\n8. Remove brick Q\n9. Remove brick K\n10. Remove brick Z\n11. Remove brick I\n12. Remove brick T\n13. Grab brick C.", "label": "FTIZKQLC"}, {"pred": "To get brick Q, first remove brick H, then remove brick T, then remove brick K, then remove brick F, and finally remove brick Q.", "label": "FUMQ"}, {"pred": "To get brick V, we need to grab the bricks in the following sequence: S, K, Z, E, A, B, J, F, Y, V.", "label": "GUQV"}, {"pred": "To get brick C, we need to follow these steps: \n1. Remove brick G \n2. Remove brick Z \n3. Remove brick I \n4. Remove brick S \n5. Remove brick B \n6. Remove brick O \n7. Remove brick M \n8. Remove brick U \n9. Remove brick J \n10. Remove brick Q \n11. Remove brick P \n12. Remove brick L \n13. Remove brick Y \n14. Remove brick T \n15. Remove brick V \n16. Remove brick C\n\nSo, the sequence of bricks to be removed to get brick C is: G, Z, I, S, B, O, M, U, J, Q, P, L, Y, T, V, C.", "label": "BSIZGC"}, {"pred": "To get brick G, we need to grab the bricks in the following sequence: R, M, Z, O, W, U, S, X, G.", "label": "NLRBG"}, {"pred": "To get brick M, first grab brick Y, then grab brick C, next grab brick S, and finally grab brick T, which will allow you to grab brick M.", "label": "we dont need to remove"}, {"pred": "To get brick U, we need to follow the sequence of bricks from top to bottom: J, C, S, N, P, Q, U.", "label": "QPNSKU"}, {"pred": "To get brick L, we need to follow this sequence: M, L", "label": "QJOYKCL"}, {"pred": "To get brick B, we need to follow the sequence of bricks from top to bottom: Q, N, X, G, O, A, B.", "label": "VKB"}, {"pred": "To get brick H, we need to follow this sequence: Z, M, C, J, P, U, H.", "label": "NGKH"}, {"pred": "To get brick J, we need to follow these steps: \n1. Remove brick Q\n2. Remove brick P\n3. Remove brick M\n4. Remove brick D\n5. Remove brick Z\n6. Remove brick F\n7. Remove brick H\n8. Remove brick K\n9. Remove brick O\n10. Remove brick N\n11. Remove brick J\n\nSo, the sequence of bricks to be grabbed is: Q, P, M, D, Z, F, H, K, O, N, J.", "label": "FZDMPQJ"}, {"pred": "To get brick U, we need to follow this sequence: Q, O, K, V, U.", "label": "EIU"}, {"pred": "To get brick P, we need to grab the bricks in the following sequence: Y, C, E, U, L, X, B, D, P.", "label": "YCEUSRP"}, {"pred": "To get brick F, we need to follow this sequence: Z, U, E, Q, P, R, T, F.", "label": "we dont need to remove"}, {"pred": "To get brick G, we need to grab the bricks in the following sequence: N, W, F, O, Q, I, P, T, G.", "label": "we dont need to remove"}, {"pred": "To get brick S, we need to follow this sequence: V, H, W, S.", "label": "PWHVS"}, {"pred": "To get brick B, we need to grab the bricks in the following sequence: S, C, E, V, W, R, T, N, B.", "label": "NB"}, {"pred": "To get brick V, we need to follow this sequence: Q, E, Y, N, G, T, V.", "label": "we dont need to remove"}, {"pred": "To get brick H, we need to grab the bricks in the following sequence: M, Z, Y, H", "label": "WQH"}, {"pred": "To get brick P, first remove brick S, then remove brick J, and finally remove brick P. So, S, J, P.", "label": "SP"}, {"pred": "To get brick D, we need to grab the bricks in the following sequence: J, S, M, R, D.", "label": "HKGD"}, {"pred": "To get brick I, we need to grab the bricks in the following sequence: J, Y, A, N, C, Z, M, W, O, B, I.", "label": "QETWMOBI"}, {"pred": "To get brick D, we need to grab the bricks in the following sequence: V, S, A, J, M, D.", "label": "we dont need to remove"}, {"pred": "To get brick N, we need to follow this sequence: D, K, N.", "label": "DKN"}, {"pred": "To get brick R, we need to follow this sequence: H, Z, D, K, G, J, T, A, V, R.", "label": "MCUIAVR"}, {"pred": "To get brick H, first remove brick S, then remove brick Q, then remove brick K, then remove brick D, then remove brick T, then grab brick H. So, S, Q, K, D, T, H.", "label": "DKH"}, {"pred": "To get brick H, we need to grab the bricks in the following sequence: X, A, Q, P, U, Z, V, S, H.", "label": "BTINOH"}, {"pred": "To get brick K, we need to grab the bricks in the following sequence: A, E, C, V, Y, F, G, N, O, X, K.", "label": "UPIK"}, {"pred": "To get brick U, we need to grab the bricks in the following sequence: N, H, U.", "label": "WU"}, {"pred": "To get brick C, we need to follow this sequence: J, V, O, S, D, C", "label": "AC"}, {"pred": "To get brick A, we need to grab the bricks in the following sequence: S, V, A.", "label": "TYZOQWA"}, {"pred": "To get brick W, we need to follow the sequence of bricks from top to bottom: X, V, D, S, Z, C, J, Q, W.", "label": "TFW"}]
+[
+  {
+    "pred": "To get brick R, first grab brick J, then grab brick R. J, R",
+    "label": "JR"
+  },
+  {
+    "pred": "To get brick C, we need to follow these steps: \n1. Remove brick R\n2. Remove brick N\n3. Remove brick K\n4. Remove brick E\n5. Remove brick U\n6. Remove brick I\n7. Remove brick C\n\nSo, the sequence of bricks to be grabbed is: R, N, K, E, U, I, C",
+    "label": "FWRC"
+  },
+  {
+    "pred": "To get brick Z, we need to grab the bricks in the following sequence: R, F, J, C, Z.",
+    "label": "RFJCZ"
+  },
+  {
+    "pred": "To get brick F, we need to follow this sequence: H, X, D, R, F.",
+    "label": "IGF"
+  },
+  {
+    "pred": "To get brick L, we need to follow these steps: \n1. Remove brick Q\n2. Remove brick C\n3. Remove brick Z\n4. Remove brick X\n5. Remove brick V\n6. Remove brick S\n7. Remove brick Y\n8. Remove brick U\n9. Remove brick A\n10. Remove brick T\n11. Remove brick F\n12. Remove brick W\n13. Remove brick G\n14. Remove brick N\n15. Remove brick E\n16. Remove brick M\n17. Grab brick L\n\nSequence: Q, C, Z, X, V, S, Y, U, A, T, F, W, G, N, E, M, L",
+    "label": "SUZCQL"
+  },
+  {
+    "pred": "To get brick Z, we need to grab the bricks in the following sequence: Y, V, T, B, C, R, M, S, O, W, J, Z.",
+    "label": "SMRHNQZ"
+  },
+  {
+    "pred": "To get brick T, we need to follow this sequence: N (blue), D, K, F, I, M, Q, O, C, T.",
+    "label": "LWGT"
+  },
+  {
+    "pred": "To get brick F, we need to follow this sequence: I, O, D, K, F.",
+    "label": "F"
+  },
+  {
+    "pred": "To get brick S, we need to grab the bricks in the following sequence: Q, E, H, F, P, V, S.",
+    "label": "QEHFPVS"
+  },
+  {
+    "pred": "To get brick I, we need to grab the bricks in the following sequence: W, A, G, K, I.",
+    "label": "FSI"
+  },
+  {
+    "pred": "To get brick B, we need to follow this sequence: R, V, Z, E, M, I, U, B.",
+    "label": "UIMB"
+  },
+  {
+    "pred": "To get brick H, we need to follow this sequence: Z, P, N, M, L, R, H.",
+    "label": "DIBXCH"
+  },
+  {
+    "pred": "To get brick R, we need to follow this sequence: A, F, R.",
+    "label": "XAFR"
+  },
+  {
+    "pred": "To get brick Q, we need to follow this sequence: N, M, W, H, B, Q",
+    "label": "XDTSUQ"
+  },
+  {
+    "pred": "To get brick N, we need to follow this sequence: B, V, N.",
+    "label": "FTHIN"
+  },
+  {
+    "pred": "To get brick K, first remove brick A, then remove brick S, then remove brick X, and finally, grab brick K.",
+    "label": "K"
+  },
+  {
+    "pred": "To get brick Q, we need to follow the sequence of bricks from top to bottom: Y, T, Q.",
+    "label": "YTQ"
+  },
+  {
+    "pred": "To get brick F, we need to follow this sequence: Y, S, J, L, E, J, Q, M, O, M, F.",
+    "label": "NDBLGF"
+  },
+  {
+    "pred": "To get brick C, we need to follow these steps: \n1. Remove brick L\n2. Remove brick V\n3. Remove brick P\n4. Remove brick E\n5. Remove brick G\n6. Remove brick U\n7. Remove brick J\n8. Remove brick Q\n9. Remove brick K\n10. Remove brick Z\n11. Remove brick I\n12. Remove brick T\n13. Grab brick C.",
+    "label": "FTIZKQLC"
+  },
+  {
+    "pred": "To get brick Q, first remove brick H, then remove brick T, then remove brick K, then remove brick F, and finally remove brick Q.",
+    "label": "FUMQ"
+  },
+  {
+    "pred": "To get brick V, we need to grab the bricks in the following sequence: S, K, Z, E, A, B, J, F, Y, V.",
+    "label": "GUQV"
+  },
+  {
+    "pred": "To get brick C, we need to follow these steps: \n1. Remove brick G \n2. Remove brick Z \n3. Remove brick I \n4. Remove brick S \n5. Remove brick B \n6. Remove brick O \n7. Remove brick M \n8. Remove brick U \n9. Remove brick J \n10. Remove brick Q \n11. Remove brick P \n12. Remove brick L \n13. Remove brick Y \n14. Remove brick T \n15. Remove brick V \n16. Remove brick C\n\nSo, the sequence of bricks to be removed to get brick C is: G, Z, I, S, B, O, M, U, J, Q, P, L, Y, T, V, C.",
+    "label": "BSIZGC"
+  },
+  {
+    "pred": "To get brick G, we need to grab the bricks in the following sequence: R, M, Z, O, W, U, S, X, G.",
+    "label": "NLRBG"
+  },
+  {
+    "pred": "To get brick M, first grab brick Y, then grab brick C, next grab brick S, and finally grab brick T, which will allow you to grab brick M.",
+    "label": "M"
+  },
+  {
+    "pred": "To get brick U, we need to follow the sequence of bricks from top to bottom: J, C, S, N, P, Q, U.",
+    "label": "QPNSKU"
+  },
+  {
+    "pred": "To get brick L, we need to follow this sequence: M, L",
+    "label": "QJOYKCL"
+  },
+  {
+    "pred": "To get brick B, we need to follow the sequence of bricks from top to bottom: Q, N, X, G, O, A, B.",
+    "label": "VKB"
+  },
+  {
+    "pred": "To get brick H, we need to follow this sequence: Z, M, C, J, P, U, H.",
+    "label": "NGKH"
+  },
+  {
+    "pred": "To get brick J, we need to follow these steps: \n1. Remove brick Q\n2. Remove brick P\n3. Remove brick M\n4. Remove brick D\n5. Remove brick Z\n6. Remove brick F\n7. Remove brick H\n8. Remove brick K\n9. Remove brick O\n10. Remove brick N\n11. Remove brick J\n\nSo, the sequence of bricks to be grabbed is: Q, P, M, D, Z, F, H, K, O, N, J.",
+    "label": "FZDMPQJ"
+  },
+  {
+    "pred": "To get brick U, we need to follow this sequence: Q, O, K, V, U.",
+    "label": "EIU"
+  },
+  {
+    "pred": "To get brick P, we need to grab the bricks in the following sequence: Y, C, E, U, L, X, B, D, P.",
+    "label": "YCEUSRP"
+  },
+  {
+    "pred": "To get brick F, we need to follow this sequence: Z, U, E, Q, P, R, T, F.",
+    "label": "F"
+  },
+  {
+    "pred": "To get brick G, we need to grab the bricks in the following sequence: N, W, F, O, Q, I, P, T, G.",
+    "label": "G"
+  },
+  {
+    "pred": "To get brick S, we need to follow this sequence: V, H, W, S.",
+    "label": "PWHVS"
+  },
+  {
+    "pred": "To get brick B, we need to grab the bricks in the following sequence: S, C, E, V, W, R, T, N, B.",
+    "label": "NB"
+  },
+  {
+    "pred": "To get brick V, we need to follow this sequence: Q, E, Y, N, G, T, V.",
+    "label": "V"
+  },
+  {
+    "pred": "To get brick H, we need to grab the bricks in the following sequence: M, Z, Y, H",
+    "label": "WQH"
+  },
+  {
+    "pred": "To get brick P, first remove brick S, then remove brick J, and finally remove brick P. So, S, J, P.",
+    "label": "SP"
+  },
+  {
+    "pred": "To get brick D, we need to grab the bricks in the following sequence: J, S, M, R, D.",
+    "label": "HKGD"
+  },
+  {
+    "pred": "To get brick I, we need to grab the bricks in the following sequence: J, Y, A, N, C, Z, M, W, O, B, I.",
+    "label": "QETWMOBI"
+  },
+  {
+    "pred": "To get brick D, we need to grab the bricks in the following sequence: V, S, A, J, M, D.",
+    "label": "D"
+  },
+  {
+    "pred": "To get brick N, we need to follow this sequence: D, K, N.",
+    "label": "DKN"
+  },
+  {
+    "pred": "To get brick R, we need to follow this sequence: H, Z, D, K, G, J, T, A, V, R.",
+    "label": "MCUIAVR"
+  },
+  {
+    "pred": "To get brick H, first remove brick S, then remove brick Q, then remove brick K, then remove brick D, then remove brick T, then grab brick H. So, S, Q, K, D, T, H.",
+    "label": "DKH"
+  },
+  {
+    "pred": "To get brick H, we need to grab the bricks in the following sequence: X, A, Q, P, U, Z, V, S, H.",
+    "label": "BTINOH"
+  },
+  {
+    "pred": "To get brick K, we need to grab the bricks in the following sequence: A, E, C, V, Y, F, G, N, O, X, K.",
+    "label": "UPIK"
+  },
+  {
+    "pred": "To get brick U, we need to grab the bricks in the following sequence: N, H, U.",
+    "label": "WU"
+  },
+  {
+    "pred": "To get brick C, we need to follow this sequence: J, V, O, S, D, C",
+    "label": "AC"
+  },
+  {
+    "pred": "To get brick A, we need to grab the bricks in the following sequence: S, V, A.",
+    "label": "TYZOQWA"
+  },
+  {
+    "pred": "To get brick W, we need to follow the sequence of bricks from top to bottom: X, V, D, S, Z, C, J, Q, W.",
+    "label": "TFW"
+  }
+]

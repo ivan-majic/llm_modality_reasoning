@@ -29,7 +29,7 @@
     },
     {
         "pred": "To get brick F, you can directly remove it as there are no bricks on top of it. So, you only need to grab brick F.",
-        "label": "we dont need to remove"
+        "label": "F"
     },
     {
         "pred": "To get brick S, you need to remove the bricks in the following order: Q, E, H, F, P, V.",
@@ -61,7 +61,7 @@
     },
     {
         "pred": "To get brick K, remove the bricks in the following order: A, S, E, X.",
-        "label": "we dont need to remove"
+        "label": "K"
     },
     {
         "pred": "To get brick Q, remove the bricks in this order: F, I, D, P, Y, T, W, Q.",
@@ -93,7 +93,7 @@
     },
     {
         "pred": "To get brick M, remove the bricks in the following order: T, S, C.",
-        "label": "we dont need to remove"
+        "label": "M"
     },
     {
         "pred": "To get brick U, remove the bricks in the following order: Q, P, N, S, K.",
@@ -125,11 +125,11 @@
     },
     {
         "pred": "To get brick F, remove the bricks in the following order: Z, U, E, Q, P, R.",
-        "label": "we dont need to remove"
+        "label": "F"
     },
     {
         "pred": "To get brick G, remove the bricks in the following order: N, W, F, O, Q, T, P, I.",
-        "label": "we dont need to remove"
+        "label": "G"
     },
     {
         "pred": "To get brick S, you need to remove the following bricks in order: O, B, P, E, A, W, F, D, H, G, Q, V.",
@@ -141,7 +141,7 @@
     },
     {
         "pred": "To get brick V, remove the bricks in this order: Q, E, Y, N, V.",
-        "label": "we dont need to remove"
+        "label": "V"
     },
     {
         "pred": "To get brick H, remove the bricks in the following order: W, Q, I, F, S, K, Y.",
@@ -161,7 +161,7 @@
     },
     {
         "pred": "To get brick D, remove the bricks in the following order: M, J, V, S.",
-        "label": "we dont need to remove"
+        "label": "D"
     },
     {
         "pred": "To get brick N, remove the bricks in the following order: D, K, N.",

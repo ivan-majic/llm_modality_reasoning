@@ -1,1 +1,202 @@
-[{"pred": "To get brick J, you need to remove the bricks from top to bottom in this order: R, M, I, H, S, V, N, F, E.", "label": "RMIHSVNFEJ"}, {"pred": "To get brick A, you need to remove the bricks from top to bottom in the following order: M, K, G, E, U, J, B, P, W.", "label": "MKGEUJBPWA"}, {"pred": "To get brick T, remove the bricks from top to bottom in this order: Q, K, Z, A, D, J, H, U.", "label": "QKZADJHUT"}, {"pred": "To get brick G, you need to remove the bricks from top to bottom. The sequence is: X, P, Q, O, S.", "label": "XPQOSG"}, {"pred": "To get brick Q, remove the bricks from top to bottom in this order: G, U, P, X, Z, R, C.", "label": "GUPXZRCQ"}, {"pred": "To get brick H, remove the bricks from top to bottom in this order: J, F, N, Y, G, Q, L, K.", "label": "JFNYGQLKH"}, {"pred": "To get brick H, remove the bricks from top to bottom in the following order: T, B, I, X, V, M, P, Q, W.", "label": "TBIXVMPQWH"}, {"pred": "To get brick F, you need to remove the bricks on top of it. The sequence of bricks to remove is: P, B, I, J, U, G.", "label": "PBIJUGF"}, {"pred": "To get brick Q, remove the bricks from the top in this order: T, X, V, Z, R. Then you can take brick Q.", "label": "TXVZRQ"}, {"pred": "To get brick V, remove the bricks from top to bottom in this order: J, H, X, Q, T, M, G, F.", "label": "JHXQTMGFV"}, {"pred": "To get brick M, you need to remove the bricks above it in the following order: N, A, K, Y, J. So the sequence is N, A, K, Y, J.", "label": "NAKYJM"}, {"pred": "To get brick Y, remove the bricks from the top down in this order: R, P, I, K.", "label": "RPIKY"}, {"pred": "To get brick R, remove the bricks from top to bottom in this order: K, J, F, B, X, L, C, D.", "label": "KJFBXLCDR"}, {"pred": "To get brick G, remove the bricks from the top one by one in this order: U, H, F, O, Y, X, Z, N.", "label": "UHFOYXZNG"}, {"pred": "To get brick U, you need to remove the bricks from top to bottom in this order: E, C, R, O, V, T, M.", "label": "ECROVTMU"}, {"pred": "To get brick L, you need to remove the bricks above it in the following order: F, A. Then you can take brick L. So, the sequence is F, A, L.", "label": "FAL"}, {"pred": "To get brick L, you need to remove the bricks on top of it in the following order: T, Y, G, P, R, I.", "label": "TYGPRIL"}, {"pred": "To get brick V, remove the bricks in this order: O, X, I, S, A, M, J, K.", "label": "OXISAMJKV"}, {"pred": "To get brick T, remove the bricks from the top in the following order: C, F, G, X, S, Q. Then you can grab brick T. \n\nSo the sequence is: C, F, G, X, S, Q.", "label": "CFGXSQT"}, {"pred": "To get brick H, remove the bricks from the top in this order: M, Y, G, I, X, A, F, L.", "label": "MYGIXAFLH"}, {"pred": "To get brick S, you need to remove the bricks from the top down to S. The sequence is: E, P, U, Q, X, G, J, A, S.", "label": "EPUQXGJAS"}, {"pred": "To get brick N, you need to remove the bricks in the following order: R, V, T, B, M.", "label": "RVTBMN"}, {"pred": "To get brick \"N,\" remove the bricks from top to bottom in this order: A, Y, I, M, D, O.", "label": "AYIMDON"}, {"pred": "To get brick H, you need to remove the bricks from top to bottom in the following order: I, K, A, M, T.", "label": "IKAMTH"}, {"pred": "To get brick A, you need to remove the bricks from top to bottom in this order: R, Y, S, E, M.", "label": "RYSEMA"}, {"pred": "To get brick D, remove the bricks from top to bottom in this order: J, S, T, R, N, U, X, C, Z.", "label": "JSTRNUXCZD"}, {"pred": "To get brick F, remove the bricks from top to bottom in the following order: I, A, J, O, C, H, W.", "label": "IAJOCHWF"}, {"pred": "To get brick Q, remove the bricks from top to bottom in the following order: H, C, U, P, R, F, S.", "label": "HCUPRFSQ"}, {"pred": "To get brick H, remove the bricks from top to bottom in this order: G, N, V, L, W.", "label": "GNVLWH"}, {"pred": "To get brick L, you need to remove the bricks above it in this order: F, P, E, I. Then you can take brick L.", "label": "FPEIL"}, {"pred": "To get brick X, remove the bricks in the following order: K, Y, B, C, A, U, I, J.", "label": "KYBCAUIJX"}, {"pred": "To get brick A, remove the bricks from the top in this order: O, U, N, K, B, Z, R, J.", "label": "OUNKBZRJA"}, {"pred": "To get brick B, you need to remove the bricks on top of it in the following order: H, A, J. Then you can grab brick B. So the sequence is: H, A, J, B.", "label": "HAJB"}, {"pred": "To get brick M, you need to remove the bricks from top to bottom in the following order: F, C, P, K, H, I, S.", "label": "FCPKHISM"}, {"pred": "To get brick H, remove the bricks from the top in this order: A, D, M, P, V, X, N.", "label": "ADMPVXNH"}, {"pred": "To get brick M, remove the bricks from the top in the following order: B, O, Y, H, E, A.", "label": "BOYHEAM"}, {"pred": "To get brick H, remove the bricks from the top down in this order: V, I, U, F, C, L, N.", "label": "VIUFCLNH"}, {"pred": "To get brick N, remove the bricks from top to bottom in the following order: W, V, U, B, F, Y, J, H.", "label": "WVUBFYJHN"}, {"pred": "To get brick D, you need to remove the bricks above it in this order: W, H, C, N, V.", "label": "WHCNVD"}, {"pred": "To get brick U, remove the bricks from top to bottom in the following order: Y, Q, M, F, O, B, T.", "label": "YQMFOBTU"}, {"pred": "To get brick H, remove the bricks from the top in this order: Z, I, G.", "label": "ZIGH"}, {"pred": "To get brick E, you need to remove the bricks above it in this order: P, S, N, O, J.", "label": "PSNOJE"}, {"pred": "To get brick W, you need to remove the bricks from the top down to W. The sequence is: R, T, O, V, I, H, P, B.", "label": "RTOVIHPBW"}, {"pred": "To get brick B, remove the bricks from the top in the following order: T, G, A, U, S, W, X, D.", "label": "TGAUSWXDB"}, {"pred": "To get brick B, remove the bricks from top to bottom in the following order: C, M, S, Z, R, T, D, F, H, O.", "label": "CMSZRTDFHOB"}, {"pred": "To get brick S, you need to remove the bricks on top of it in the following order: J, C, P, O, Q, M, L, X. Then you can access brick S. So the sequence is: J, C, P, O, Q, M, L, X.", "label": "JCPOQMLXS"}, {"pred": "To get brick V, you need to remove the bricks on top of it in the following order: P, M, W, F, A, X, R, B, T. So the sequence is: P, M, W, F, A, X, R, B, T.", "label": "PMWFAXRBTV"}, {"pred": "To get brick I, you need to remove the bricks on top of it in this order: C, U, N, P, Y, H, T, S.", "label": "CUNPYHTSI"}, {"pred": "To get brick N, you need to remove the bricks above it in this order: A, H, T, Z, Y, X.", "label": "AHTZYXN"}, {"pred": "To get brick G, remove the bricks from top to bottom in this order: C, N, E, J, B, H, Q.", "label": "CNEJBHQG"}]
+[
+    {
+        "pred": "To get brick J, you need to remove the bricks from top to bottom in this order: R, M, I, H, S, V, N, F, E.",
+        "label": "RMIHSVNFEJ"
+    },
+    {
+        "pred": "To get brick A, you need to remove the bricks from top to bottom in the following order: M, K, G, E, U, J, B, P, W.",
+        "label": "MKGEUJBPWA"
+    },
+    {
+        "pred": "To get brick T, remove the bricks from top to bottom in this order: Q, K, Z, A, D, J, H, U.",
+        "label": "QKZADJHUT"
+    },
+    {
+        "pred": "To get brick G, you need to remove the bricks from top to bottom. The sequence is: X, P, Q, O, S.",
+        "label": "XPQOSG"
+    },
+    {
+        "pred": "To get brick Q, remove the bricks from top to bottom in this order: G, U, P, X, Z, R, C.",
+        "label": "GUPXZRCQ"
+    },
+    {
+        "pred": "To get brick H, remove the bricks from top to bottom in this order: J, F, N, Y, G, Q, L, K.",
+        "label": "JFNYGQLKH"
+    },
+    {
+        "pred": "To get brick H, remove the bricks from top to bottom in the following order: T, B, I, X, V, M, P, Q, W.",
+        "label": "TBIXVMPQWH"
+    },
+    {
+        "pred": "To get brick F, you need to remove the bricks on top of it. The sequence of bricks to remove is: P, B, I, J, U, G.",
+        "label": "PBIJUGF"
+    },
+    {
+        "pred": "To get brick Q, remove the bricks from the top in this order: T, X, V, Z, R. Then you can take brick Q.",
+        "label": "TXVZRQ"
+    },
+    {
+        "pred": "To get brick V, remove the bricks from top to bottom in this order: J, H, X, Q, T, M, G, F.",
+        "label": "JHXQTMGFV"
+    },
+    {
+        "pred": "To get brick M, you need to remove the bricks above it in the following order: N, A, K, Y, J. So the sequence is N, A, K, Y, J.",
+        "label": "NAKYJM"
+    },
+    {
+        "pred": "To get brick Y, remove the bricks from the top down in this order: R, P, I, K.",
+        "label": "RPIKY"
+    },
+    {
+        "pred": "To get brick R, remove the bricks from top to bottom in this order: K, J, F, B, X, L, C, D.",
+        "label": "KJFBXLCDR"
+    },
+    {
+        "pred": "To get brick G, remove the bricks from the top one by one in this order: U, H, F, O, Y, X, Z, N.",
+        "label": "UHFOYXZNG"
+    },
+    {
+        "pred": "To get brick U, you need to remove the bricks from top to bottom in this order: E, C, R, O, V, T, M.",
+        "label": "ECROVTMU"
+    },
+    {
+        "pred": "To get brick L, you need to remove the bricks above it in the following order: F, A. Then you can take brick L. So, the sequence is F, A, L.",
+        "label": "FAL"
+    },
+    {
+        "pred": "To get brick L, you need to remove the bricks on top of it in the following order: T, Y, G, P, R, I.",
+        "label": "TYGPRIL"
+    },
+    {
+        "pred": "To get brick V, remove the bricks in this order: O, X, I, S, A, M, J, K.",
+        "label": "OXISAMJKV"
+    },
+    {
+        "pred": "To get brick T, remove the bricks from the top in the following order: C, F, G, X, S, Q. Then you can grab brick T. \n\nSo the sequence is: C, F, G, X, S, Q.",
+        "label": "CFGXSQT"
+    },
+    {
+        "pred": "To get brick H, remove the bricks from the top in this order: M, Y, G, I, X, A, F, L.",
+        "label": "MYGIXAFLH"
+    },
+    {
+        "pred": "To get brick S, you need to remove the bricks from the top down to S. The sequence is: E, P, U, Q, X, G, J, A, S.",
+        "label": "EPUQXGJAS"
+    },
+    {
+        "pred": "To get brick N, you need to remove the bricks in the following order: R, V, T, B, M.",
+        "label": "RVTBMN"
+    },
+    {
+        "pred": "To get brick \"N,\" remove the bricks from top to bottom in this order: A, Y, I, M, D, O.",
+        "label": "AYIMDON"
+    },
+    {
+        "pred": "To get brick H, you need to remove the bricks from top to bottom in the following order: I, K, A, M, T.",
+        "label": "IKAMTH"
+    },
+    {
+        "pred": "To get brick A, you need to remove the bricks from top to bottom in this order: R, Y, S, E, M.",
+        "label": "RYSEMA"
+    },
+    {
+        "pred": "To get brick D, remove the bricks from top to bottom in this order: J, S, T, R, N, U, X, C, Z.",
+        "label": "JSTRNUXCZD"
+    },
+    {
+        "pred": "To get brick F, remove the bricks from top to bottom in the following order: I, A, J, O, C, H, W.",
+        "label": "IAJOCHWF"
+    },
+    {
+        "pred": "To get brick Q, remove the bricks from top to bottom in the following order: H, C, U, P, R, F, S.",
+        "label": "HCUPRFSQ"
+    },
+    {
+        "pred": "To get brick H, remove the bricks from top to bottom in this order: G, N, V, L, W.",
+        "label": "GNVLWH"
+    },
+    {
+        "pred": "To get brick L, you need to remove the bricks above it in this order: F, P, E, I. Then you can take brick L.",
+        "label": "FPEIL"
+    },
+    {
+        "pred": "To get brick X, remove the bricks in the following order: K, Y, B, C, A, U, I, J.",
+        "label": "KYBCAUIJX"
+    },
+    {
+        "pred": "To get brick A, remove the bricks from the top in this order: O, U, N, K, B, Z, R, J.",
+        "label": "OUNKBZRJA"
+    },
+    {
+        "pred": "To get brick B, you need to remove the bricks on top of it in the following order: H, A, J. Then you can grab brick B. So the sequence is: H, A, J, B.",
+        "label": "HAJB"
+    },
+    {
+        "pred": "To get brick M, you need to remove the bricks from top to bottom in the following order: F, C, P, K, H, I, S.",
+        "label": "FCPKHISM"
+    },
+    {
+        "pred": "To get brick H, remove the bricks from the top in this order: A, D, M, P, V, X, N.",
+        "label": "ADMPVXNH"
+    },
+    {
+        "pred": "To get brick M, remove the bricks from the top in the following order: B, O, Y, H, E, A.",
+        "label": "BOYHEAM"
+    },
+    {
+        "pred": "To get brick H, remove the bricks from the top down in this order: V, I, U, F, C, L, N.",
+        "label": "VIUFCLNH"
+    },
+    {
+        "pred": "To get brick N, remove the bricks from top to bottom in the following order: W, V, U, B, F, Y, J, H.",
+        "label": "WVUBFYJHN"
+    },
+    {
+        "pred": "To get brick D, you need to remove the bricks above it in this order: W, H, C, N, V.",
+        "label": "WHCNVD"
+    },
+    {
+        "pred": "To get brick U, remove the bricks from top to bottom in the following order: Y, Q, M, F, O, B, T.",
+        "label": "YQMFOBTU"
+    },
+    {
+        "pred": "To get brick H, remove the bricks from the top in this order: Z, I, G.",
+        "label": "ZIGH"
+    },
+    {
+        "pred": "To get brick E, you need to remove the bricks above it in this order: P, S, N, O, J.",
+        "label": "PSNOJE"
+    },
+    {
+        "pred": "To get brick W, you need to remove the bricks from the top down to W. The sequence is: R, T, O, V, I, H, P, B.",
+        "label": "RTOVIHPBW"
+    },
+    {
+        "pred": "To get brick B, remove the bricks from the top in the following order: T, G, A, U, S, W, X, D.",
+        "label": "TGAUSWXDB"
+    },
+    {
+        "pred": "To get brick B, remove the bricks from top to bottom in the following order: C, M, S, Z, R, T, D, F, H, O.",
+        "label": "CMSZRTDFHOB"
+    },
+    {
+        "pred": "To get brick S, you need to remove the bricks on top of it in the following order: J, C, P, O, Q, M, L, X. Then you can access brick S. So the sequence is: J, C, P, O, Q, M, L, X.",
+        "label": "JCPOQMLXS"
+    },
+    {
+        "pred": "To get brick V, you need to remove the bricks on top of it in the following order: P, M, W, F, A, X, R, B, T. So the sequence is: P, M, W, F, A, X, R, B, T.",
+        "label": "PMWFAXRBTV"
+    },
+    {
+        "pred": "To get brick I, you need to remove the bricks on top of it in this order: C, U, N, P, Y, H, T, S.",
+        "label": "CUNPYHTSI"
+    },
+    {
+        "pred": "To get brick N, you need to remove the bricks above it in this order: A, H, T, Z, Y, X.",
+        "label": "AHTZYXN"
+    },
+    {
+        "pred": "To get brick G, remove the bricks from top to bottom in this order: C, N, E, J, B, H, Q.",
+        "label": "CNEJBHQG"
+    }
+]
