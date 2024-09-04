@@ -1,0 +1,22 @@
+\begin{tabular}{lllllllllllll}
+\toprule
+ &  &  &  & \multicolumn{3}{r}{gpt-4o-2024-08-06} & \multicolumn{3}{r}{gpt-4o-mini} & \multicolumn{3}{r}{gpt-3.5-turb} \\
+ &  &  &  & accuracy & precision & recall & accuracy & precision & recall & accuracy & precision & recall \\
+dimension & modality & color & gap &  &  &  &  &  &  &  &  &  \\
+\midrule
+\multirow[t]{5}{*}{1D} & text &  &  & 92.0 & 99.6 & 98.3 & 38.0 & 86.6 & 63.8 & 54.0 & 82.0 & 71.0 \\
+ & \multirow[t]{2}{*}{image} & bw &  & 96.0 & 100.0 & 96.6 & 82.0 & 88.7 & 85.5 & NaN & NaN & NaN \\
+ &  & color &  & 100.0 & 100.0 & 100.0 & 54.0 & 71.8 & 63.6 & NaN & NaN & NaN \\
+ & \multirow[t]{2}{*}{both} & bw &  & 70.0 & 90.0 & 74.1 & 82.0 & 86.4 & 86.0 & NaN & NaN & NaN \\
+ &  & color &  & 74.0 & 91.8 & 78.8 & 80.0 & 91.3 & 88.8 & NaN & NaN & NaN \\
+\multirow[t]{9}{*}{2D} & text &  &  & 38.0 & 75.0 & 78.0 & 22.0 & 65.6 & 68.4 & 14.0 & 37.7 & 46.8 \\
+ & \multirow[t]{4}{*}{image} & \multirow[t]{2}{*}{bw} &  & 26.0 & 44.9 & 72.0 & 0.0 & 29.5 & 48.3 & NaN & NaN & NaN \\
+ &  &  & gap & 100.0 & 100.0 & 100.0 & 46.0 & 62.5 & 67.5 & NaN & NaN & NaN \\
+ &  & \multirow[t]{2}{*}{color} &  & 20.0 & 40.7 & 64.3 & 0.0 & 27.2 & 43.6 & NaN & NaN & NaN \\
+ &  &  & gap & 98.0 & 98.4 & 98.4 & 38.0 & 63.0 & 62.8 & NaN & NaN & NaN \\
+ & \multirow[t]{4}{*}{both} & \multirow[t]{2}{*}{bw} &  & 22.0 & 69.6 & 57.2 & 20.0 & 44.6 & 63.7 & NaN & NaN & NaN \\
+ &  &  & gap & 66.0 & 88.2 & 78.6 & 32.0 & 59.0 & 67.1 & NaN & NaN & NaN \\
+ &  & \multirow[t]{2}{*}{color} &  & 20.0 & 62.6 & 54.8 & 24.0 & 45.7 & 64.0 & NaN & NaN & NaN \\
+ &  &  & gap & 52.0 & 86.8 & 69.4 & 36.0 & 65.8 & 73.0 & NaN & NaN & NaN \\
+\bottomrule
+\end{tabular}
