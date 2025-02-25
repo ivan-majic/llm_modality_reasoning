@@ -16,7 +16,7 @@ class Brick:
         self.color = color
 
     def __str__(self):
-        '''Return a string representation of the brick.'''
+        '''Return a string representation of the brick. Should be of the form "Brick at (x, y, label, shape, color)".'''
         res = 'Brick at ({}, {}, {}, {}, {})'.format(self.x, self.y, self.label, self.shape, self.color)
         return res
     
@@ -31,6 +31,8 @@ class Brick:
             elif item.y == self.y and abs(item.x - self.x) == 1:
                 prev_brick = item
                 break
+            else:
+                continue
         
         if prev_brick is None:
             return "No adjacent brick found."
@@ -51,37 +53,41 @@ class Brick:
                 self.label, prev_brick.label
             ) 
 
-
 def distance(a, b):
     return math.sqrt((a.x - b.x)**2 + (a.y - b.y)**2)
 
 def find_nearest_bricks(bricks, target, target_color="white"):
     min_distance = float('inf')
     nearest_brick = None
+
     for brick in bricks:
         if brick.color == target_color:
             dist = distance(brick, target)
+            
             if dist < min_distance:
                 min_distance = dist
                 nearest_brick = brick
+    # print("The nearest {} object of brick {} is {}".format(target_color, target.label, nearest_brick.label ))
     return nearest_brick
 
 def find_farthest_bricks(bricks, target, target_color="white"):
     max_distance = float('-inf')
     farthest_brick = None
+
     for brick in bricks:
         if brick.color == target_color:
             dist = distance(brick, target)
             if dist > max_distance:
-                max_distance = dist
+                min_distance = dist
                 farthest_brick = brick
+    # print("The farthest {} object of brick {} is {}".format(target_color, target.label, farthest_brick.label ))
     return farthest_brick
 
 def build_bricks(n, m, min_height, shuffle):
     flags = [65, 97]
-    bricks = []
+    bricks=[]
     colors = ['blue', 'yellow', 'white', 'orange', 'green', 'red']
-    shapes = ['square', 'circle']
+    shapes = ['square','circle']
     all_nums = 26
     label_list = [chr(i + j) for j in flags for i in range(all_nums)]
     
@@ -94,33 +100,37 @@ def build_bricks(n, m, min_height, shuffle):
     for i in range(len(column_heights)):
         for j in range(column_heights[i]):
             color = random.choice(colors)
-            # Initially assign shape from the list; here defaulting to square
-            shape = shapes[0]
+            shape = shapes[1] # default shape to square
             if shuffle:
                 random_element = random.choice(label_list)
                 label_list.remove(random_element)
             else:
-                if f <= 25:
-                    random_element = chr(flags[0] + f)
+                if f <=25:
+                    random_element = chr(flags[0]+f)
                 else:
-                    random_element = chr(flags[1] + f - 26)
+                    random_element = chr(flags[1]+f-26)
             bricks.append(Brick(i, j, random_element, shape, color))
             f += 1
     return bricks
 
 
-def make_dict(dict_, brick, bricks):
+def make_dict(dict_ ,brick, bricks):
     for item in bricks:
-        if item.x == brick.x and item.y - brick.y == 1:
+        if item.x == brick.x and item.y - brick.y==1:
             dict_[item.label] = brick.label
-
+        else:
+            continue
+            
 def remove_bricks(brick, brick_dict, res):
+  
+ 
     above_bricks = []
     for b, a in brick_dict.items():
         if a == brick:
             above_bricks.append(b)
     for b in above_bricks:
-        res = remove_bricks(b, brick_dict, res)
+        res = remove_bricks(b, brick_dict,res)
+    # print(brick)
     if brick not in brick_dict.keys():
         res = res + brick
         return res
@@ -129,66 +139,28 @@ def remove_bricks(brick, brick_dict, res):
     return res
 
 
-def draw_bricks(bricks, filename, show=0, save=0, color=0, rotation=0, shape_type=None):
+def draw_bricks(bricks, filename, show=0, save=0, color=0):
     """
-    Draw the bricks with a specified rotation and shape type.
-      - rotation: 0, 90, 180, or 270 (degrees clockwise). This rotates the grid.
-      - shape_type: 'square' or 'circle'. If provided, this overrides the brick.shape.
-    The labels are always drawn upright.
+    Draw the bricks as colored rectangles with labels.
     """
     fig, ax = plt.subplots()
-
-    # Calculate bounding box of original brick positions.
-    min_x = min(brick.x for brick in bricks)
-    max_x = max(brick.x for brick in bricks)
-    min_y = min(brick.y for brick in bricks)
-    max_y = max(brick.y for brick in bricks)
-    width = max_x - min_x + 1
-    height = max_y - min_y + 1
-
-    # Helper: transform original (x, y) to new coordinates based on rotation.
-    def transform_coords(x, y, rotation):
-        dx = x - min_x
-        dy = y - min_y
-        if rotation == 0:
-            new_dx, new_dy = dx, dy
-        elif rotation == 90:
-            new_dx, new_dy = dy, width - 1 - dx
-        elif rotation == 180:
-            new_dx, new_dy = width - 1 - dx, height - 1 - dy
-        elif rotation == 270:
-            new_dx, new_dy = height - 1 - dy, dx
-        else:
-            new_dx, new_dy = dx, dy
-        return new_dx, new_dy
-
-    transformed_positions = []
     for brick in bricks:
-        new_x, new_y = transform_coords(brick.x, brick.y, rotation)
-        transformed_positions.append((new_x, new_y))
-        # Determine fill color.
-        fill_color = brick.color if color else 'white'
-        line_color = 'gray'
-        # Determine which shape to draw.
-        draw_shape = shape_type if shape_type is not None else brick.shape
-        if draw_shape == 'square':
-            rect = plt.Rectangle((new_x, new_y), 1, 1, facecolor=fill_color, edgecolor=line_color, alpha=0.5)
-            ax.add_patch(rect)
-        elif draw_shape == 'circle':
-            circ = plt.Circle((new_x + 0.5, new_y + 0.5), 0.5, facecolor=fill_color, edgecolor=line_color, alpha=0.5)
-            ax.add_patch(circ)
+        # Define the position and size of the rectangle
+        if color:
+            fill_color = brick.color
         else:
-            rect = plt.Rectangle((new_x, new_y), 1, 1, facecolor=fill_color, edgecolor=line_color, alpha=0.5)
-            ax.add_patch(rect)
-        # Always draw the label upright at the center.
-        plt.text(new_x + 0.5, new_y + 0.5, brick.label, ha='center', va='center', fontsize=12, color='black')
+            fill_color = 'white'
+        line_color='gray'
+        rect = plt.Rectangle((brick.x, brick.y), 1, 1, facecolor=fill_color, edgecolor=line_color, alpha=0.5)
+        ax.add_patch(rect)
+        # Add the label in the center of the rectangle
+        plt.text(brick.x + 0.5, brick.y + 0.5, brick.label, ha='center', va='center', fontsize=12, color='black')
     
-    # Set plot limits based on transformed positions.
-    xs = [pos[0] for pos in transformed_positions]
-    ys = [pos[1] for pos in transformed_positions]
-    ax.set_xlim(-1, max(xs) + 2)
-    ax.set_ylim(-1, max(ys) + 2)
-    ax.set_aspect('equal')
+    # Set the limits of the plot
+    ax.set_xlim(-1, max([b.x for b in bricks]) + 2)
+    ax.set_ylim(-1, max([b.y for b in bricks]) + 2)
+    ax.set_aspect('equal')  # Keep the aspect ratio square
+
     plt.axis('off')
     if show:
         plt.show()
@@ -198,16 +170,56 @@ def draw_bricks(bricks, filename, show=0, save=0, color=0, rotation=0, shape_typ
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Test LLM planning abilities")
+    parser = argparse.ArgumentParser(description="test LLM planning abilities")
 
-    parser.add_argument("--n", type=int, default=1, help="Number of rows")
-    parser.add_argument("--m", type=int, default=1, help="Number of columns")
-    parser.add_argument("--l_low", type=int, default=None, help="Minimum column height")
-    parser.add_argument("--l_high", type=int, default=None, help="Maximum column length")
-    parser.add_argument("--dim", type=int, default=1, help="Dimensions of the brick structure (1D or 2D)")
-    parser.add_argument("--N", type=int, default=500, help="Number of iterations")
-    parser.add_argument("--s", type=int, default=1, help="Shuffle label: 1 true, 0 false")
-    parser.add_argument("--c", type=bool, default=False, help="Color or not")
+    parser.add_argument(
+        "--n",
+        type=int,
+        default=1,
+        help="Number of rows",
+    )
+    parser.add_argument(
+        "--m",
+        type=int,
+        default=1,
+        help="Number of columns",
+    )
+    parser.add_argument(
+        "--l_low",
+        type=int,
+        default=None,
+        help="Minimum column height",
+    )
+    parser.add_argument(
+        "--l_high",
+        type=int,
+        default=None,
+        help="Maximum column length",
+    )
+    parser.add_argument(
+        "--dim",
+        type=int,
+        default=1,
+        help="Dimensions of the brick structure (1D or 2D)",
+    )
+    parser.add_argument(
+        "--N",
+        type=int,
+        default=500,
+        help="Number of iterations"
+    )
+    parser.add_argument(
+        "--s",
+        type=int,
+        default=1,
+        help='shuffle label 1 true 0 false'
+    )
+    parser.add_argument(
+        "--c",
+        type=bool,
+        default=False,
+        help='color or not'
+    )
 
     args = parser.parse_args()
     l_low = args.l_low 
@@ -217,41 +229,41 @@ if __name__ == "__main__":
     dim = args.dim
     N = args.N
     shuffle_label = bool(args.s)
-    color_flag = args.c
+    color = args.c
     data_list = []
 
     res_dir = f'data/brick_{dim}D_{N}_n{n}_m{m}/'
-    image_dir = os.path.join(res_dir, 'images')
-    save_path = os.path.join(res_dir, 'data.json')
+    image_dir = 'images'
+    image_dir = os.path.join(res_dir, image_dir)
+    save_path = 'data.json'
+    save_path = os.path.join(res_dir, save_path)
     os.makedirs(image_dir, exist_ok=True)
 
     for i in range(N):
         list_char = []
-        color_set = set()
-        shape_set = set()
+        color_set = set({})
+        shape_set = set({})
         flag = 65
 
-        # For 1D, force n=1 or m=1.
+        # if only 1D, force n=1 or m=1
         if dim == 1:
             if n > 1:
                 m = 1
         
         for j in range(n * m):
-            list_char.append(chr(flag + j))
+            list_char.append(chr(flag+j))
         char_index = random.randint(1, 3)
         
         bricks = build_bricks(n, m, l_low, shuffle_label)
         color_options = [0]
-        if color_flag:
+        if color:
             color_options.append(1)
-
-        # Loop over rotations (0, 90, 180, 270) and shape types ('square', 'circle').
-        for rot in [0, 90, 180, 270]:
-            for shape in ['square', 'circle']:
-                for col in color_options:
-                    col_label = "color" if col else "bw"
-                    image_filename = os.path.join(image_dir, f'img_{i}_{shape}_{rot}_{col_label}.png')
-                    draw_bricks(bricks, image_filename, show=0, save=1, color=col, rotation=rot, shape_type=shape)
+        for color in color_options:
+            if color:
+                image_filename=os.path.join(image_dir, f'img_{i}_color.png')
+            else:
+                image_filename=os.path.join(image_dir, f'img_{i}_bw.png')
+            draw_bricks(bricks, image_filename, show=0, save=1, color=color)
 
         for item in bricks:
             color_set.add(item.color)
@@ -259,24 +271,29 @@ if __name__ == "__main__":
         res = "There is a set of bricks. "
         color_list = list(color_set)
         shape_list = list(shape_set)
+        #random.randint(1, )
         shuffled = shuffle_label
         
         if shuffled:
             res_list = []
-            for idx in range(len(bricks)):
-                if idx > 0:
-                    res_list.append(bricks[idx].get_position_description(bricks[:idx]))
+            for i in range(len(bricks)):
+                if i > 0:
+                    res_list.append(bricks[i].get_position_description(bricks[:i]))
                 else:
-                    res_list.append("For the brick {}, the color is {}. ".format(bricks[idx].label, bricks[idx].color))
+                    res_list.append("For the brick {}, the color is {}. ".format(bricks[i].label, bricks[i].color))
+                    
             random.shuffle(res_list)
+
+            # print("res_list", res_list)
             for item in res_list:
-                res = res + item
+                res = res  + item
         else:
-            for idx in range(len(bricks)):
-                if idx > 0:
-                    res = res + bricks[idx].get_position_description(bricks[:idx])
-                else:
-                    res = res + "For the brick {}, the color is {}. ".format(bricks[idx].label, bricks[idx].color)
+            for i in range(len(bricks)):
+              if i>0:
+                res = res +  bricks[i].get_position_description(bricks[:i])
+              else:
+                res = res + "For the brick {}, the color is {}. ".format(bricks[i].label, bricks[i].color)
+        #res = res +". How to get brick {}".format(brick_target.label) + "?"
         res = res + "Now we have to get a specific brick. "
         rule = 'The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first. '
         res = res + rule
@@ -285,19 +302,21 @@ if __name__ == "__main__":
             choiced_color = random.choice(color_list)
             brick_target = find_farthest_bricks(bricks, bricks[char_index-1], target_color=choiced_color)
             if brick_target.label == bricks[char_index-1].label:
-                res = res + "How to get brick {}?".format(brick_target.label)
+                res = res +"How to get brick {}?".format(brick_target.label)
             else:
-                res = res + "How to get the farthest {} brick of the brick {}".format(choiced_color, bricks[char_index-1].label) + "?"
+                res = res +"How to get the farthest {} brick of the brick {}".format(choiced_color, bricks[char_index-1].label) + "?"
         elif num == 2:
             choiced_color = random.choice(color_list)
             brick_target = find_nearest_bricks(bricks, bricks[char_index-1], target_color=random.choice(color_list))
             if brick_target.label == bricks[char_index-1].label:
-                res = res + "How to get brick {}?".format(brick_target.label)
+                res = res +"How to get brick {}?".format(brick_target.label)
             else:
-                res = res + "How to get the nearest {} brick of the brick {}".format(choiced_color, bricks[char_index-1].label) + "?"
+                res = res +"How to get the nearest {} brick of the brick {}".format(choiced_color, bricks[char_index-1].label) + "?"
         elif num == 3:
             brick_target = bricks[char_index-1]
+            #rule = 'The bricks must now be grabbed from top to bottom, and if the lower brick is to be grabbed, the upper brick must be removed first.'
             res = res + "How to get brick {}?".format(brick_target.label)
+        #res = res + ". What bricks we need to remove in order?"
         dict_above = {}
 
         brick_labels = []
@@ -307,19 +326,22 @@ if __name__ == "__main__":
             brick_colors.append(','.join([b.color for b in bricks if b.y == y]))
 
         for item in bricks:
-            make_dict(dict_above, item, bricks)
+           make_dict(dict_above, item, bricks)
         label = ''
         label = remove_bricks(brick_target.label, dict_above, label)
+        # if label==brick_target.label:
+        #     label = brick_target.label
         data = {
-            "brick_layout": brick_labels,
-            "brick_colors": brick_colors,
+            "brick_layout":brick_labels,
+            "brick_colors":brick_colors,
             "image": image_filename,
-            "target": brick_target.label,
+            "target":brick_target.label,
             "data": res,
-            "label": label,
-        }
+            "label":label,
+            }
         data_list.append(data)
     dataset = {"testset": data_list}
+
 
     with open(save_path, 'w') as outfile:
         json.dump(data_list, outfile)
