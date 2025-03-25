@@ -30,3 +30,5 @@ venv_sigspatial/
 .*_key.txt
 .openai_key.txt
 .gemini_api_key.txt
+data/brick_2D_1000_n7_m7.tar.gz
+data/brick_2D_1000_n7_m7
